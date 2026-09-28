@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#eef2f6"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#9a7b5a"/>
+  <rect x="80" y="520" width="1120" height="120" rx="8" fill="#c9b8a0"/>
+  <g>
+    <rect x="120" y="200" width="280" height="300" rx="14" fill="#2f3540"/>
+    <rect x="136" y="216" width="248" height="268" rx="8" fill="#f7f8fa"/>
+    <text x="156" y="248" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">IMAP source</text>
+    <rect x="156" y="270" width="208" height="48" rx="8" fill="#fff4e0" stroke="#e0c48a"/>
+    <text x="172" y="300" fill="#6b5a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">inbox tray</text>
+    <rect x="156" y="332" width="208" height="48" rx="8" fill="#e8f0fe" stroke="#a8c4f0"/>
+    <text x="172" y="362" fill="#2a4a7a" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">sent tray</text>
+    <rect x="156" y="394" width="208" height="48" rx="8" fill="#e6f4ea" stroke="#9cc9a8"/>
+    <text x="172" y="424" fill="#2a5a38" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">labels only</text>
+  </g>
+  <polygon points="440,350 500,320 500,340 560,340 560,360 500,360 500,380" fill="#5b8def"/>
+  <g>
+    <rect x="580" y="140" width="560" height="360" rx="16" fill="#282c34"/>
+    <rect x="598" y="158" width="524" height="324" rx="10" fill="#fafbfc"/>
+    <rect x="598" y="158" width="524" height="48" fill="#4285f4"/>
+    <text x="620" y="190" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Workspace setup · IMAP connect</text>
+    <text x="620" y="240" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">IMAP server host</text>
+    <rect x="620" y="252" width="480" height="40" rx="6" fill="#ffffff" stroke="#c8cdd7"/>
+    <text x="636" y="278" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">imap.example-host.com</text>
+    <text x="620" y="330" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">IMAP email · password</text>
+    <rect x="620" y="342" width="230" height="40" rx="6" fill="#ffffff" stroke="#c8cdd7"/>
+    <text x="636" y="368" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">user@oldmail.tld</text>
+    <rect x="870" y="342" width="230" height="40" rx="6" fill="#ffffff" stroke="#c8cdd7"/>
+    <text x="890" y="368" fill="#9aa3ad" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">••••••••</text>
+    <rect x="620" y="410" width="200" height="44" rx="8" fill="#34a853"/>
+    <text x="660" y="438" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Import one user</text>
+    <text x="840" y="438" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">runs in background</text>
+  </g>
+  <rect x="900" y="540" width="280" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="920" y="572" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">setup-time path</text>
+  <text x="920" y="598" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">1 IMAP account</text>
+</svg>
