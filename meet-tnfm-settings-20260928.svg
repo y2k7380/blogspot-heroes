@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#eef2f7"/>
+  <rect x="0" y="610" width="1280" height="110" fill="#9a7b5a"/>
+  <rect x="160" y="90" width="960" height="520" rx="18" fill="#2c313a"/>
+  <rect x="178" y="108" width="924" height="460" rx="10" fill="#f7f8fa"/>
+  <rect x="178" y="108" width="924" height="48" fill="#1a73e8"/>
+  <text x="200" y="139" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="700">Meet settings  ·  Automatic note taking</text>
+  <rect x="198" y="176" width="220" height="360" rx="8" fill="#ffffff" stroke="#d8dee8"/>
+  <text x="216" y="210" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Meeting records</text>
+  <rect x="210" y="228" width="196" height="36" rx="6" fill="#e8f0fe"/>
+  <text x="224" y="251" fill="#174ea6" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">3+ guests</text>
+  <text x="224" y="296" fill="#80868b" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Off</text>
+  <text x="224" y="328" fill="#80868b" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">All meetings I host</text>
+  <g>
+    <rect x="450" y="190" width="280" height="200" rx="12" fill="#ffffff" stroke="#dadce0"/>
+    <circle cx="520" cy="250" r="28" fill="#c5cad3"/>
+    <text x="490" y="320" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="16">1:1 call</text>
+    <rect x="490" y="340" width="120" height="28" rx="14" fill="#e8eaed"/>
+    <text x="520" y="359" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">notes Off</text>
+  </g>
+  <g>
+    <rect x="770" y="190" width="280" height="200" rx="12" fill="#ffffff" stroke="#1a73e8" stroke-width="2"/>
+    <circle cx="820" cy="250" r="22" fill="#8ab4f8"/>
+    <circle cx="860" cy="250" r="22" fill="#81c995"/>
+    <circle cx="900" cy="250" r="22" fill="#fdd663"/>
+    <text x="820" y="320" fill="#174ea6" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">3+ guests</text>
+    <rect x="820" y="340" width="160" height="28" rx="14" fill="#1a73e8"/>
+    <text x="848" y="359" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">auto notes ON</text>
+  </g>
+  <rect x="450" y="420" width="600" height="70" rx="10" fill="#fff8e1" stroke="#f9ab00"/>
+  <text x="480" y="450" fill="#e37400" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Defaults take effect · September 29</text>
+  <text x="480" y="476" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Admin 3+ option  ·  user Meeting records</text>
+</svg>
