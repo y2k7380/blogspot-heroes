@@ -1,1 +1,53 @@
-PLACEHOLDER
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#eef2f6"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#5a6575"/>
+  <!-- desk -->
+  <rect x="50" y="520" width="1180" height="120" rx="8" fill="#c5b8a8"/>
+  <!-- left: Drive list with lock badges -->
+  <g>
+    <rect x="70" y="90" width="380" height="400" rx="14" fill="#2f3540"/>
+    <rect x="86" y="106" width="348" height="368" rx="8" fill="#f7f8fa"/>
+    <text x="108" y="140" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Drive · encrypted</text>
+    <rect x="108" y="160" width="304" height="56" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <rect x="122" y="174" width="28" height="28" rx="4" fill="#e8a0a0"/>
+    <path d="M132 186 h8 v-4 a4 4 0 1 1 8 0 v4 h2 v12 h-18 z" fill="#6b3030"/>
+    <text x="164" y="194" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">contract-v3.pdf</text>
+    <rect x="108" y="232" width="304" height="56" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <rect x="122" y="246" width="28" height="28" rx="4" fill="#a8c4f0"/>
+    <path d="M132 258 h8 v-4 a4 4 0 1 1 8 0 v4 h2 v12 h-18 z" fill="#2a4a7a"/>
+    <text x="164" y="266" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">scan-floorplan.png</text>
+    <rect x="108" y="304" width="304" height="56" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <rect x="122" y="318" width="28" height="28" rx="4" fill="#9cc9a8"/>
+    <path d="M132 330 h8 v-4 a4 4 0 1 1 8 0 v4 h2 v12 h-18 z" fill="#2a5a3a"/>
+    <text x="164" y="338" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">badge-photo.jpg</text>
+    <rect x="108" y="380" width="180" height="32" rx="16" fill="#fce8e6"/>
+    <text x="128" y="402" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">CSE · lock badge</text>
+    <text x="108" y="440" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">authorized · web preview</text>
+  </g>
+  <!-- arrow -->
+  <polygon points="480,300 540,270 540,290 600,290 600,310 540,310 540,330" fill="#5b8def"/>
+  <!-- right: browser preview pane -->
+  <g>
+    <rect x="620" y="70" width="600" height="420" rx="16" fill="#282c34"/>
+    <rect x="636" y="86" width="568" height="388" rx="10" fill="#fafbfc"/>
+    <rect x="636" y="86" width="568" height="44" fill="#4a5568"/>
+    <circle cx="658" cy="108" r="6" fill="#e8a0a0"/>
+    <circle cx="678" cy="108" r="6" fill="#e0c48a"/>
+    <circle cx="698" cy="108" r="6" fill="#9cc9a8"/>
+    <text x="720" y="114" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Preview · encrypted PDF</text>
+    <!-- fake PDF page -->
+    <rect x="680" y="150" width="480" height="280" rx="6" fill="#ffffff" stroke="#d0d5dd"/>
+    <rect x="710" y="180" width="220" height="14" rx="3" fill="#c8cdd7"/>
+    <rect x="710" y="210" width="400" height="10" rx="3" fill="#e4e7ec"/>
+    <rect x="710" y="232" width="380" height="10" rx="3" fill="#e4e7ec"/>
+    <rect x="710" y="254" width="360" height="10" rx="3" fill="#e4e7ec"/>
+    <rect x="710" y="290" width="160" height="100" rx="6" fill="#eef4ff" stroke="#a8c4f0"/>
+    <text x="730" y="340" fill="#2a4a7a" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">in browser</text>
+    <text x="730" y="362" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">no local download</text>
+  </g>
+  <!-- bottom badge -->
+  <rect x="860" y="530" width="340" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="880" y="562" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">beta · Drive web only</text>
+  <text x="880" y="588" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">PDF + images · CSE preview</text>
+</svg>
