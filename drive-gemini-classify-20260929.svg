@@ -1,1 +1,49 @@
-PLACEHOLDER
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#eef2f6"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#6b7a8d"/>
+  <!-- desk -->
+  <rect x="60" y="530" width="1160" height="110" rx="8" fill="#c5b8a8"/>
+  <!-- left: Drive file stack with label chips -->
+  <g>
+    <rect x="90" y="160" width="320" height="340" rx="14" fill="#2f3540"/>
+    <rect x="106" y="176" width="288" height="308" rx="8" fill="#f7f8fa"/>
+    <text x="126" y="210" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Drive files</text>
+    <rect x="126" y="230" width="248" height="52" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <rect x="140" y="244" width="28" height="24" rx="4" fill="#a8c4f0"/>
+    <text x="180" y="262" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">contracts.docx</text>
+    <rect x="126" y="298" width="248" height="52" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <rect x="140" y="312" width="28" height="24" rx="4" fill="#9cc9a8"/>
+    <text x="180" y="330" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">policy notes</text>
+    <rect x="126" y="366" width="248" height="52" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <rect x="140" y="380" width="28" height="24" rx="4" fill="#e0c48a"/>
+    <text x="180" y="398" fill="#373c46" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">draft briefs</text>
+    <rect x="126" y="430" width="110" height="28" rx="14" fill="#fce8e6"/>
+    <text x="142" y="449" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Confidential</text>
+    <rect x="248" y="430" width="90" height="28" rx="14" fill="#e8f0fe"/>
+    <text x="268" y="449" fill="#2a4a7a" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Internal</text>
+  </g>
+  <!-- arrow -->
+  <polygon points="440,330 500,300 500,320 560,320 560,340 500,340 500,360" fill="#5b8def"/>
+  <!-- right: Admin instruction cards -->
+  <g>
+    <rect x="580" y="100" width="620" height="400" rx="16" fill="#282c34"/>
+    <rect x="598" y="118" width="584" height="364" rx="10" fill="#fafbfc"/>
+    <rect x="598" y="118" width="584" height="48" fill="#5b6ee1"/>
+    <text x="620" y="150" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Data classification · Use Gemini</text>
+    <text x="620" y="200" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Administrator-defined instructions</text>
+    <rect x="620" y="218" width="540" height="70" rx="8" fill="#fff8e8" stroke="#e0c48a"/>
+    <text x="640" y="246" fill="#6b5a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Confidential</text>
+    <text x="640" y="270" fill="#6b5a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">what it means · how to identify · exceptions</text>
+    <rect x="620" y="304" width="540" height="70" rx="8" fill="#eef4ff" stroke="#a8c4f0"/>
+    <text x="640" y="332" fill="#2a4a7a" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Internal</text>
+    <text x="640" y="356" fill="#2a4a7a" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">plain-language clues · keywords · edge cases</text>
+    <rect x="620" y="394" width="200" height="44" rx="8" fill="#34a853"/>
+    <text x="648" y="422" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Save · auto-apply</text>
+    <text x="840" y="422" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">OU / group scope</text>
+  </g>
+  <!-- bottom badge -->
+  <rect x="880" y="540" width="320" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="900" y="572" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">open beta · no training files</text>
+  <text x="900" y="598" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">instructions → Drive labels</text>
+</svg>
