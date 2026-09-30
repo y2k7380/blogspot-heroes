@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e8eef5"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#4a5568"/>
+  <!-- desk -->
+  <rect x="40" y="500" width="1200" height="140" rx="8" fill="#c4b5a0"/>
+  <!-- mug -->
+  <rect x="1120" y="470" width="56" height="70" rx="8" fill="#f0e6d8" stroke="#a89078"/>
+  <ellipse cx="1148" cy="470" rx="28" ry="10" fill="#e8dcc8"/>
+  <!-- left: Gems panel metaphor -->
+  <g>
+    <rect x="60" y="50" width="480" height="430" rx="16" fill="#2b3038"/>
+    <rect x="76" y="66" width="448" height="398" rx="10" fill="#f7f8fa"/>
+    <rect x="76" y="66" width="448" height="42" fill="#6b5b7a"/>
+    <text x="96" y="94" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Gems · Settings panel</text>
+    <rect x="96" y="130" width="408" height="56" rx="8" fill="#efe8f5" stroke="#b8a0cc"/>
+    <text x="112" y="164" fill="#4a3560" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Brand voice Gem</text>
+    <rect x="96" y="200" width="408" height="56" rx="8" fill="#efe8f5" stroke="#b8a0cc"/>
+    <text x="112" y="234" fill="#4a3560" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Vendor evaluator Gem</text>
+    <rect x="96" y="270" width="408" height="56" rx="8" fill="#f5f0e8" stroke="#c8b890"/>
+    <text x="112" y="304" fill="#5a4a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Lesson planning Gem</text>
+    <rect x="96" y="350" width="280" height="36" rx="18" fill="#f3e8ff"/>
+    <text x="116" y="374" fill="#5b2a8a" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">still usable · until later</text>
+    <text x="96" y="430" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Nov 17 → Settings · Mar 2027 cliff</text>
+  </g>
+  <!-- arrow migration -->
+  <polygon points="570,270 630,240 630,260 690,260 690,280 630,280 630,300" fill="#5b8def"/>
+  <!-- right: Skills / SKILL.md -->
+  <g>
+    <rect x="720" y="40" width="500" height="440" rx="16" fill="#282c34"/>
+    <rect x="736" y="56" width="468" height="408" rx="10" fill="#fafbfc"/>
+    <rect x="736" y="56" width="468" height="44" fill="#3d4654"/>
+    <text x="756" y="84" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Skills · SKILL.md</text>
+    <!-- code card -->
+    <rect x="760" y="120" width="420" height="200" rx="8" fill="#1e2430"/>
+    <text x="780" y="150" fill="#7ee787" font-family="DejaVu Sans Mono, monospace" font-size="14"># brand-voice</text>
+    <text x="780" y="178" fill="#a5d6ff" font-family="DejaVu Sans Mono, monospace" font-size="13">name: brand-voice</text>
+    <text x="780" y="204" fill="#c8cdd7" font-family="DejaVu Sans Mono, monospace" font-size="13">description: Use when…</text>
+    <text x="780" y="230" fill="#e4e7ec" font-family="DejaVu Sans Mono, monospace" font-size="13">## Instructions</text>
+    <text x="780" y="256" fill="#9eb6d8" font-family="DejaVu Sans Mono, monospace" font-size="13">- Keep tone consistent</text>
+    <text x="780" y="282" fill="#9eb6d8" font-family="DejaVu Sans Mono, monospace" font-size="13">- Avoid padded intros</text>
+    <text x="780" y="308" fill="#6e7681" font-family="DejaVu Sans Mono, monospace" font-size="12">Markdown-native · upload zip</text>
+    <!-- skills list chips -->
+    <rect x="760" y="340" width="160" height="32" rx="16" fill="#e8f0fe"/>
+    <text x="780" y="362" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">/ brand-voice</text>
+    <rect x="935" y="340" width="180" height="32" rx="16" fill="#e6f4ea"/>
+    <text x="952" y="362" fill="#1e6b3a" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">stack multiple</text>
+    <rect x="760" y="390" width="300" height="36" rx="18" fill="#1a73e8"/>
+    <text x="790" y="414" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Settings → Skills</text>
+    <text x="760" y="448" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Gemini app ≠ Workspace · no sync</text>
+  </g>
+  <!-- bottom badge -->
+  <rect x="60" y="530" width="520" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="80" y="562" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Gems → skills · Oct 5 / Oct 13 rollout</text>
+  <text x="80" y="588" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">SKILL.md on desk · recreate checklist</text>
+</svg>
