@@ -1,1 +1,52 @@
-PLACEHOLDER
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e9eef6"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#3d4654"/>
+  <rect x="40" y="510" width="1200" height="130" rx="8" fill="#c9b8a2"/>
+  <g>
+    <rect x="56" y="48" width="540" height="440" rx="16" fill="#2b3038"/>
+    <rect x="72" y="64" width="508" height="408" rx="10" fill="#f7f8fa"/>
+    <rect x="72" y="64" width="508" height="44" fill="#3d4654"/>
+    <text x="92" y="93" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Allowlisted domains</text>
+    <rect x="96" y="130" width="460" height="48" rx="8" fill="#e8f0fe" stroke="#5b8def" stroke-width="2"/>
+    <circle cx="124" cy="154" r="10" fill="#1a73e8"/>
+    <text x="148" y="160" fill="#1a3a6e" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">partner-a.example</text>
+    <rect x="96" y="192" width="460" height="48" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <circle cx="124" cy="216" r="10" fill="#34a853"/>
+    <text x="148" y="222" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">vendor-b.co.kr</text>
+    <rect x="96" y="254" width="460" height="48" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <circle cx="124" cy="278" r="10" fill="#34a853"/>
+    <text x="148" y="284" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">studio-c.io</text>
+    <rect x="96" y="316" width="460" height="48" rx="8" fill="#f1f3f4" stroke="#dadce0" stroke-dasharray="6 4"/>
+    <text x="148" y="346" fill="#80868b" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">+ create via API</text>
+    <rect x="96" y="390" width="220" height="36" rx="18" fill="#1a73e8"/>
+    <text x="128" y="414" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">POST allowlistedDomains</text>
+  </g>
+  <polygon points="620,270 680,240 680,260 740,260 740,280 680,280 680,300" fill="#5b8def"/>
+  <g>
+    <rect x="760" y="48" width="460" height="440" rx="16" fill="#282c34"/>
+    <rect x="776" y="64" width="428" height="408" rx="10" fill="#fafbfc"/>
+    <rect x="776" y="64" width="428" height="44" fill="#4a5568"/>
+    <text x="796" y="93" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Cloud Identity API</text>
+    <circle cx="990" cy="250" r="90" fill="none" stroke="#5b8def" stroke-width="6"/>
+    <circle cx="990" cy="250" r="60" fill="#e8f0fe" stroke="#a8c4f0" stroke-width="2"/>
+    <text x="948" y="245" fill="#1a3a6e" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">trusted</text>
+    <text x="955" y="268" fill="#1a3a6e" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">domains</text>
+    <rect x="800" y="170" width="100" height="28" rx="6" fill="#fce8e6"/>
+    <text x="812" y="190" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">external</text>
+    <rect x="1100" y="300" width="80" height="28" rx="6" fill="#fce8e6"/>
+    <text x="1112" y="320" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">blocked</text>
+    <rect x="800" y="380" width="70" height="28" rx="6" fill="#e6f4ea"/>
+    <text x="814" y="399" fill="#1e6b3a" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">create</text>
+    <rect x="880" y="380" width="60" height="28" rx="6" fill="#e8f0fe"/>
+    <text x="894" y="399" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">list</text>
+    <rect x="950" y="380" width="60" height="28" rx="6" fill="#e8f0fe"/>
+    <text x="964" y="399" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">get</text>
+    <rect x="1020" y="380" width="70" height="28" rx="6" fill="#fce8e6"/>
+    <text x="1032" y="399" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">delete</text>
+    <text x="800" y="440" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">exact-match filter · LRO mutations</text>
+  </g>
+  <rect x="56" y="540" width="480" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="76" y="572" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Admin console → Cloud Identity API</text>
+  <text x="76" y="598" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">Allowlisted Domains API · GA</text>
+</svg>
