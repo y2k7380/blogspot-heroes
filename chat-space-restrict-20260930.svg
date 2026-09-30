@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e8eef5"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#3d4654"/>
+  <!-- desk -->
+  <rect x="40" y="510" width="1200" height="130" rx="8" fill="#c9b8a2"/>
+  <!-- left monitor: Admin Chat restrictions -->
+  <g>
+    <rect x="56" y="40" width="560" height="450" rx="16" fill="#2b3038"/>
+    <rect x="72" y="56" width="528" height="418" rx="10" fill="#f7f8fa"/>
+    <rect x="72" y="56" width="528" height="44" fill="#3d4654"/>
+    <text x="92" y="85" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Chat and Space restrictions</text>
+    <!-- group picker -->
+    <rect x="92" y="120" width="180" height="320" rx="8" fill="#ffffff" stroke="#c8cdd7"/>
+    <text x="108" y="148" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Groups</text>
+    <rect x="104" y="164" width="156" height="36" rx="6" fill="#e8f0fe" stroke="#5b8def" stroke-width="2"/>
+    <text x="116" y="187" fill="#1a3a6e" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">frontline-crew</text>
+    <rect x="104" y="212" width="156" height="32" rx="6" fill="#f1f3f4"/>
+    <text x="116" y="233" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">vendors-ext</text>
+    <rect x="104" y="256" width="156" height="32" rx="6" fill="#f1f3f4"/>
+    <text x="116" y="277" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">edu-students</text>
+    <!-- options -->
+    <g>
+      <circle cx="320" cy="180" r="9" fill="none" stroke="#80868b" stroke-width="2"/>
+      <text x="342" y="186" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">No restrictions</text>
+      <circle cx="320" cy="240" r="9" fill="#1a73e8" stroke="#1a73e8" stroke-width="2"/>
+      <circle cx="320" cy="240" r="4" fill="#ffffff"/>
+      <text x="342" y="246" fill="#1a3a6e" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Restrict space creation</text>
+      <text x="342" y="268" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">1:1 DM · group DM OK</text>
+      <circle cx="320" cy="320" r="9" fill="none" stroke="#80868b" stroke-width="2"/>
+      <text x="342" y="326" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Restrict all creation</text>
+      <rect x="320" y="380" width="120" height="36" rx="18" fill="#1a73e8"/>
+      <text x="352" y="404" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Save</text>
+    </g>
+  </g>
+  <!-- arrow -->
+  <polygon points="640,270 700,240 700,260 760,260 760,280 700,280 700,300" fill="#5b8def"/>
+  <!-- right: end-user Chat metaphor DM vs Space -->
+  <g>
+    <rect x="780" y="40" width="440" height="450" rx="16" fill="#282c34"/>
+    <rect x="796" y="56" width="408" height="418" rx="10" fill="#fafbfc"/>
+    <rect x="796" y="56" width="408" height="44" fill="#4a5568"/>
+    <text x="816" y="85" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">User Chat surface</text>
+    <!-- DM cards OK -->
+    <rect x="820" y="130" width="360" height="70" rx="10" fill="#e6f4ea" stroke="#34a853" stroke-width="2"/>
+    <text x="840" y="160" fill="#1e6b3a" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">1:1 DM</text>
+    <text x="840" y="182" fill="#3a7048" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">still allowed</text>
+    <rect x="820" y="220" width="360" height="70" rx="10" fill="#e6f4ea" stroke="#34a853" stroke-width="2"/>
+    <text x="840" y="250" fill="#1e6b3a" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Group DM</text>
+    <text x="840" y="272" fill="#3a7048" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">still allowed</text>
+    <!-- Space blocked -->
+    <rect x="820" y="310" width="360" height="90" rx="10" fill="#fce8e6" stroke="#d93025" stroke-width="2"/>
+    <text x="840" y="348" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Create space</text>
+    <text x="840" y="372" fill="#a05048" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">option disabled for restricted users</text>
+    <line x1="830" y1="320" x2="1170" y2="390" stroke="#d93025" stroke-width="3" opacity="0.35"/>
+  </g>
+  <!-- bottom badge -->
+  <rect x="56" y="540" width="560" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="76" y="572" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Admin console → Google Chat</text>
+  <text x="76" y="598" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">Granular space creation restrictions</text>
+</svg>
