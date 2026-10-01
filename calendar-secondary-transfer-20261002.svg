@@ -1,1 +1,50 @@
-PLACEHOLDER
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e8eef6"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#3d4654"/>
+  <rect x="40" y="510" width="1200" height="140" rx="8" fill="#c9b8a0"/>
+  <!-- left Admin panel -->
+  <g>
+    <rect x="50" y="40" width="560" height="450" rx="16" fill="#2b3038"/>
+    <rect x="66" y="56" width="528" height="418" rx="10" fill="#f4f6fa"/>
+    <rect x="66" y="56" width="528" height="44" fill="#3d4654"/>
+    <text x="86" y="84" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Admin · Calendar</text>
+    <text x="86" y="128" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Event and Secondary calendar management</text>
+    <rect x="86" y="150" width="488" height="170" rx="10" fill="#ffffff" stroke="#5b8def" stroke-width="2"/>
+    <text x="106" y="180" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Secondary calendar transfer</text>
+    <rect x="106" y="200" width="140" height="36" rx="6" fill="#eef2f8"/>
+    <text x="118" y="223" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">From user</text>
+    <rect x="260" y="200" width="280" height="36" rx="6" fill="#e8f0fe"/>
+    <text x="272" y="223" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">owner@org.example</text>
+    <rect x="106" y="250" width="140" height="36" rx="6" fill="#eef2f8"/>
+    <text x="118" y="273" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">To user</text>
+    <rect x="260" y="250" width="280" height="36" rx="6" fill="#e8f0fe"/>
+    <text x="272" y="273" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">keep@org.example</text>
+    <rect x="86" y="340" width="300" height="44" rx="22" fill="#1a73e8"/>
+    <text x="110" y="368" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Transfer Secondary Calendars</text>
+    <text x="86" y="420" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">same org · Manage Calendars privilege</text>
+    <text x="86" y="445" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">not Events transfer</text>
+  </g>
+  <polygon points="640,270 700,240 700,260 760,260 760,280 700,280 700,300" fill="#1a73e8"/>
+  <!-- right lifecycle -->
+  <g>
+    <rect x="780" y="40" width="450" height="450" rx="16" fill="#282c34"/>
+    <rect x="796" y="56" width="418" height="418" rx="10" fill="#fafbfc"/>
+    <rect x="796" y="56" width="418" height="44" fill="#4a5568"/>
+    <text x="816" y="84" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Lifecycle · Oct 5, 2026</text>
+    <rect x="820" y="120" width="370" height="80" rx="10" fill="#fce8e6" stroke="#e37400" stroke-width="2"/>
+    <text x="840" y="150" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Owner deleted → calendars gone</text>
+    <text x="840" y="175" fill="#8a3a30" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">auto-assign stops · transfer first</text>
+    <rect x="820" y="220" width="370" height="140" rx="10" fill="#ffffff" stroke="#c8cdd7"/>
+    <text x="840" y="250" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">POST …/transferOwnership</text>
+    <text x="840" y="280" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">newDataOwner=email</text>
+    <text x="840" y="305" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">useAdminAccess=true</text>
+    <text x="840" y="335" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">empty response · active only</text>
+    <rect x="820" y="380" width="370" height="70" rx="10" fill="#e8f0fe"/>
+    <text x="840" y="408" fill="#1a56db" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">CalendarList org filter + dataOwner</text>
+    <text x="840" y="432" fill="#3a4556" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">inventory before offboarding delete</text>
+  </g>
+  <rect x="50" y="530" width="500" height="70" rx="12" fill="#ffffff" stroke="#c8cdd7"/>
+  <text x="70" y="558" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="14">Workspace · secondary calendars</text>
+  <text x="70" y="585" fill="#282c34" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">transfer before Oct 5, 2026</text>
+</svg>
