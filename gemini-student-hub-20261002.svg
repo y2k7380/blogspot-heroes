@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e8eef8"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#2a3140"/>
+  <text x="48" y="688" fill="#d7dde8" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">Student hub · Students menu · study tools in one place</text>
+  <g>
+    <rect x="48" y="36" width="520" height="560" rx="18" fill="#252a33"/>
+    <rect x="64" y="52" width="488" height="528" rx="12" fill="#f6f8fc"/>
+    <rect x="64" y="52" width="488" height="48" fill="#3a4556"/>
+    <text x="84" y="83" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">Gemini app menu</text>
+    <rect x="84" y="130" width="448" height="52" rx="10" fill="#ffffff" stroke="#dadce0"/>
+    <text x="104" y="162" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Home</text>
+    <rect x="84" y="196" width="448" height="56" rx="10" fill="#e8f0fe" stroke="#1a73e8" stroke-width="2"/>
+    <circle cx="118" cy="224" r="12" fill="#1a73e8"/>
+    <text x="144" y="230" fill="#174ea6" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Students</text>
+    <rect x="84" y="268" width="448" height="52" rx="10" fill="#ffffff" stroke="#dadce0"/>
+    <text x="104" y="300" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Notebooks</text>
+    <rect x="84" y="334" width="448" height="52" rx="10" fill="#ffffff" stroke="#dadce0"/>
+    <text x="104" y="366" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="15">Settings</text>
+    <text x="84" y="430" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">or open gemini.google.com/students</text>
+    <rect x="84" y="455" width="300" height="40" rx="8" fill="#eef3ff" stroke="#a8c3f0"/>
+    <text x="100" y="480" fill="#174ea6" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Education · all ages · hub entry</text>
+  </g>
+  <polygon points="600,300 660,270 660,290 720,290 720,310 660,310 660,330" fill="#1a73e8"/>
+  <g>
+    <rect x="740" y="36" width="492" height="560" rx="18" fill="#252a33"/>
+    <rect x="756" y="52" width="460" height="528" rx="12" fill="#fafbfc"/>
+    <rect x="756" y="52" width="460" height="48" fill="#4a5568"/>
+    <text x="776" y="83" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Learning tools desk</text>
+    <rect x="780" y="120" width="200" height="160" rx="12" fill="#e8f0fe" stroke="#1a73e8" stroke-width="1.5"/>
+    <rect x="800" y="145" width="160" height="14" rx="3" fill="#1a73e8"/>
+    <rect x="800" y="175" width="140" height="10" rx="2" fill="#a8c3f0"/>
+    <rect x="800" y="195" width="150" height="10" rx="2" fill="#a8c3f0"/>
+    <rect x="800" y="215" width="120" height="10" rx="2" fill="#a8c3f0"/>
+    <text x="800" y="260" fill="#174ea6" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">Study notebook</text>
+    <rect x="1000" y="120" width="200" height="160" rx="12" fill="#e6f4ea" stroke="#137333" stroke-width="1.5"/>
+    <rect x="1020" y="145" width="70" height="90" rx="6" fill="#ffffff" stroke="#137333" transform="rotate(-6 1055 190)"/>
+    <rect x="1060" y="150" width="70" height="90" rx="6" fill="#ffffff" stroke="#137333" transform="rotate(4 1095 195)"/>
+    <text x="1020" y="260" fill="#137333" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">Flashcards</text>
+    <rect x="780" y="310" width="420" height="140" rx="12" fill="#fef7e0" stroke="#e37400" stroke-width="1.5"/>
+    <rect x="800" y="335" width="24" height="24" rx="4" fill="#ffffff" stroke="#e37400" stroke-width="2"/>
+    <path d="M806 347 L812 353 L822 341" fill="none" stroke="#e37400" stroke-width="2.5"/>
+    <rect x="840" y="338" width="280" height="12" rx="2" fill="#f9ab00"/>
+    <rect x="800" y="375" width="24" height="24" rx="4" fill="#ffffff" stroke="#dadce0" stroke-width="2"/>
+    <rect x="840" y="378" width="240" height="12" rx="2" fill="#e8eaed"/>
+    <rect x="800" y="415" width="24" height="24" rx="4" fill="#ffffff" stroke="#dadce0" stroke-width="2"/>
+    <rect x="840" y="418" width="260" height="12" rx="2" fill="#e8eaed"/>
+    <text x="800" y="470" fill="#b06000" font-family="DejaVu Sans, Arial, sans-serif" font-size="13" font-weight="700">Practice quiz</text>
+    <text x="780" y="510" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Workspace Education · outside EEA</text>
+    <text x="780" y="535" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Admin: Generative AI · Gemini app</text>
+  </g>
+</svg>
