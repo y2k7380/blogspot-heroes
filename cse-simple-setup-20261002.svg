@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#e9eef5"/>
+  <rect x="0" y="640" width="1280" height="80" fill="#2f3640"/>
+  <text x="48" y="688" fill="#d7dde8" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" font-weight="700">CSE simplified setup · Cloud HSM + Google Identity</text>
+  <g>
+    <rect x="48" y="36" width="560" height="560" rx="18" fill="#2b3038"/>
+    <rect x="64" y="52" width="528" height="528" rx="12" fill="#f5f7fb"/>
+    <rect x="64" y="52" width="528" height="48" fill="#3d4654"/>
+    <text x="84" y="83" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" font-weight="700">Admin · Data Compliance</text>
+    <text x="84" y="130" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Client-side encryption</text>
+    <rect x="84" y="150" width="488" height="210" rx="12" fill="#ffffff" stroke="#1a73e8" stroke-width="2"/>
+    <text x="104" y="185" fill="#202124" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Set up client-side encryption</text>
+    <text x="104" y="215" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">to increase data privacy</text>
+    <rect x="104" y="240" width="160" height="44" rx="22" fill="#1a73e8"/>
+    <text x="142" y="268" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Set up</text>
+    <rect x="84" y="390" width="488" height="150" rx="12" fill="#eef3ff" stroke="#a8c3f0"/>
+    <text x="104" y="425" fill="#174ea6" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Key service & identity provider</text>
+    <text x="104" y="455" fill="#3c4043" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Google Cloud HSM · Google Identity</text>
+    <rect x="104" y="475" width="150" height="40" rx="20" fill="#188038"/>
+    <text x="128" y="501" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700">Provision</text>
+  </g>
+  <polygon points="640,300 700,270 700,290 760,290 760,310 700,310 700,330" fill="#1a73e8"/>
+  <g>
+    <rect x="780" y="36" width="452" height="560" rx="18" fill="#282c34"/>
+    <rect x="796" y="52" width="420" height="528" rx="12" fill="#fafbfc"/>
+    <rect x="796" y="52" width="420" height="48" fill="#4a5568"/>
+    <text x="816" y="83" fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700">Minutes vs days</text>
+    <rect x="820" y="120" width="372" height="140" rx="12" fill="#e6f4ea" stroke="#137333" stroke-width="2"/>
+    <text x="840" y="155" fill="#137333" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Simplified path</text>
+    <text x="840" y="185" fill="#202124" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Cloud HSM Keys + Google Identity</text>
+    <text x="840" y="215" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Assured Controls add-on · once</text>
+    <rect x="820" y="290" width="372" height="160" rx="12" fill="#fce8e6" stroke="#c5221f" stroke-width="1.5"/>
+    <text x="840" y="325" fill="#a50e0e" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700">Standard still available</text>
+    <text x="840" y="355" fill="#3c4043" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Third-party key service + IdP</text>
+    <text x="840" y="385" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Deep custom configs · days</text>
+    <text x="840" y="415" fill="#5f6368" font-family="DejaVu Sans, Arial, sans-serif" font-size="13">Use after automated setup ends</text>
+    <text x="820" y="510" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Enterprise Plus + Assured Controls</text>
+    <text x="820" y="535" fill="#5a6470" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">Not Drive preview · not pptx Slides</text>
+  </g>
+</svg>
