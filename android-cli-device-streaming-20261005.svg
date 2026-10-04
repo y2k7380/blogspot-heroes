@@ -1,1 +1,84 @@
-__PLACEHOLDER__
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1b2d"/>
+      <stop offset="1" stop-color="#16263d"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22395a"/>
+      <stop offset="1" stop-color="#1a2d48"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f2c14e"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.04">
+    <circle cx="1180" cy="80" r="160"/><circle cx="80" cy="690" r="120"/>
+  </g>
+
+  <!-- heading -->
+  <text x="60" y="72" font-family="NanumGothic, 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="30" font-weight="bold" fill="#e8eef7">없는 폰을 터미널에서 빌려 쓰기</text>
+  <text x="60" y="104" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="17" fill="#7f93ad">android device remote</text>
+
+  <!-- terminal -->
+  <rect x="60" y="136" width="600" height="440" rx="14" fill="#0a111c" stroke="#2c3e57" stroke-width="2"/>
+  <rect x="60" y="136" width="600" height="40" rx="14" fill="#1c2a3e"/>
+  <rect x="60" y="160" width="600" height="16" fill="#1c2a3e"/>
+  <circle cx="88" cy="156" r="7" fill="#ef6b5b"/><circle cx="112" cy="156" r="7" fill="#f2c14e"/><circle cx="136" cy="156" r="7" fill="#5fc27e"/>
+  <text x="360" y="162" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="15" fill="#8aa0bb">terminal</text>
+  <g font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="18">
+    <text x="84" y="220" fill="#5fc27e">$ <tspan fill="#d9e3f0">android auth login</tspan></text>
+    <text x="84" y="260" fill="#5fc27e">$ <tspan fill="#d9e3f0">android device remote projects</tspan></text>
+    <text x="84" y="300" fill="#5fc27e">$ <tspan fill="#d9e3f0">android device remote models</tspan></text>
+    <text x="84" y="340" fill="#5fc27e">$ <tspan fill="#d9e3f0">android device remote create \</tspan></text>
+    <text x="128" y="368" fill="#d9e3f0">tokay/34 --project=my-project</text>
+    <text x="84" y="414" fill="#5fc27e">$ <tspan fill="#d9e3f0">android install app.apk</tspan></text>
+    <text x="84" y="454" fill="#5fc27e">$ <tspan fill="#d9e3f0">adb logcat</tspan></text>
+    <text x="84" y="494" fill="#5fc27e">$ <tspan fill="#d9e3f0">android screen capture -o ui.png</tspan></text>
+    <text x="84" y="534" fill="#5fc27e">$ <tspan fill="#d9e3f0">android device remote remove ...</tspan></text>
+  </g>
+  <rect x="84" y="548" width="11" height="20" fill="#5fc27e" opacity="0.8"/>
+
+  <!-- link -->
+  <line x1="668" y1="300" x2="868" y2="300" stroke="#4fb3ff" stroke-width="4" stroke-dasharray="12 9"/>
+  <circle cx="668" cy="300" r="7" fill="#4fb3ff"/><circle cx="868" cy="300" r="7" fill="#4fb3ff"/>
+  <rect x="746" y="276" width="44" height="34" rx="6" fill="#0f1b2d" stroke="#4fb3ff" stroke-width="3"/>
+  <path d="M756,276 v-9 a12,12 0 0 1 24,0 v9" fill="none" stroke="#4fb3ff" stroke-width="3"/>
+  <circle cx="768" cy="292" r="4" fill="#4fb3ff"/>
+  <text x="768" y="346" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="17" font-weight="bold" fill="#4fb3ff">ADB over SSL</text>
+
+  <!-- cloud data center -->
+  <rect x="868" y="136" width="352" height="440" rx="22" fill="url(#cloud)" stroke="#33507a" stroke-width="2"/>
+  <text x="1044" y="176" text-anchor="middle" font-family="NanumGothic, 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="20" font-weight="bold" fill="#c9d7ea">원격 데이터센터 실기기</text>
+  <!-- racks -->
+  <g fill="#2a4469">
+    <rect x="896" y="200" width="56" height="350" rx="6"/>
+    <rect x="1136" y="200" width="56" height="350" rx="6"/>
+  </g>
+  <g fill="#5fc27e">
+    <circle cx="912" cy="226" r="4"/><circle cx="912" cy="266" r="4"/><circle cx="912" cy="306" r="4"/><circle cx="912" cy="346" r="4"/><circle cx="912" cy="386" r="4"/><circle cx="912" cy="426" r="4"/>
+    <circle cx="1152" cy="246" r="4"/><circle cx="1152" cy="286" r="4"/><circle cx="1152" cy="366" r="4"/><circle cx="1152" cy="446" r="4"/><circle cx="1152" cy="486" r="4"/>
+  </g>
+  <!-- phone -->
+  <rect x="972" y="206" width="144" height="300" rx="22" fill="#0b0f16" stroke="#93a6bf" stroke-width="3"/>
+  <rect x="982" y="226" width="124" height="262" rx="10" fill="#e9eef5"/>
+  <circle cx="1044" cy="216" r="4" fill="#3b4a5e"/>
+  <rect x="994" y="240" width="100" height="22" rx="5" fill="#4fb3ff"/>
+  <rect x="994" y="274" width="100" height="60" rx="8" fill="#c7d3e3"/>
+  <rect x="994" y="344" width="70" height="10" rx="4" fill="#9fb1c8"/>
+  <rect x="994" y="362" width="88" height="10" rx="4" fill="#9fb1c8"/>
+  <rect x="994" y="380" width="56" height="10" rx="4" fill="#9fb1c8"/>
+  <rect x="994" y="440" width="100" height="32" rx="16" fill="#f2c14e"/>
+  <text x="1044" y="540" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="16" fill="#c9d7ea">tokay/34</text>
+
+  <!-- artifacts flowing back -->
+  <path d="M1044,580 C1044,650 800,660 690,640" fill="none" stroke="#f2c14e" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arr)"/>
+  <g font-family="'DejaVu Sans Mono', monospace" font-size="17">
+    <rect x="410" y="612" width="120" height="44" rx="8" fill="#1c2a3e" stroke="#f2c14e" stroke-width="2"/>
+    <text x="470" y="640" text-anchor="middle" fill="#f2c14e">ui.png</text>
+    <rect x="550" y="612" width="130" height="44" rx="8" fill="#1c2a3e" stroke="#f2c14e" stroke-width="2"/>
+    <text x="615" y="640" text-anchor="middle" fill="#f2c14e">logcat</text>
+  </g>
+  <text x="60" y="641" font-family="NanumGothic, 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="19" fill="#9fb1c8">돌아오는 결과물</text>
+</svg>
