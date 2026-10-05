@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1b2d"/>
+      <stop offset="1" stop-color="#1b2f45"/>
+    </linearGradient>
+    <linearGradient id="scr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f6f9"/>
+      <stop offset="1" stop-color="#e6ebf1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g font-family="'Noto Sans CJK KR','Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+    <!-- phone -->
+    <rect x="110" y="70" width="330" height="590" rx="38" fill="#0a0f17" stroke="#3b4c63" stroke-width="3"/>
+    <rect x="128" y="96" width="294" height="540" rx="24" fill="url(#scr)"/>
+    <rect x="235" y="82" width="80" height="8" rx="4" fill="#26303d"/>
+    <!-- app content -->
+    <rect x="150" y="122" width="250" height="40" rx="10" fill="#d5dde7"/>
+    <rect x="150" y="180" width="250" height="120" rx="14" fill="#ffffff" stroke="#cfd8e3"/>
+    <rect x="168" y="200" width="140" height="14" rx="7" fill="#9fb0c4"/>
+    <rect x="168" y="226" width="200" height="10" rx="5" fill="#c3cfdc"/>
+    <rect x="168" y="246" width="170" height="10" rx="5" fill="#c3cfdc"/>
+    <rect x="168" y="266" width="120" height="10" rx="5" fill="#c3cfdc"/>
+    <rect x="150" y="318" width="250" height="90" rx="14" fill="#ffffff" stroke="#cfd8e3"/>
+    <rect x="168" y="338" width="110" height="14" rx="7" fill="#9fb0c4"/>
+    <rect x="168" y="364" width="190" height="10" rx="5" fill="#c3cfdc"/>
+    <rect x="150" y="426" width="250" height="90" rx="14" fill="#ffffff" stroke="#cfd8e3"/>
+    <rect x="168" y="446" width="150" height="14" rx="7" fill="#9fb0c4"/>
+    <rect x="168" y="472" width="200" height="10" rx="5" fill="#c3cfdc"/>
+    <!-- overlay message at bottom -->
+    <rect x="142" y="548" width="266" height="70" rx="12" fill="#26323f"/>
+    <circle cx="170" cy="583" r="11" fill="#f2b13a"/>
+    <rect x="166" y="575" width="8" height="10" rx="2" fill="#26323f"/>
+    <rect x="190" y="568" width="120" height="10" rx="5" fill="#e8edf3"/>
+    <rect x="190" y="588" width="90" height="8" rx="4" fill="#9fb0c4"/>
+    <rect x="330" y="571" width="62" height="24" rx="12" fill="#6fc3a3"/>
+    <!-- code chip -->
+    <rect x="500" y="92" width="660" height="118" rx="16" fill="#0b1320" stroke="#33465e" stroke-width="2"/>
+    <text x="528" y="138" fill="#7fb7ff" font-family="'DejaVu Sans Mono','Menlo','Consolas',monospace" font-size="26">billingClient.showInAppMessages(</text>
+    <text x="560" y="182" fill="#a8e6c9" font-family="'DejaVu Sans Mono','Menlo','Consolas',monospace" font-size="24">activity, TRANSACTIONAL, listener)</text>
+    <!-- timeline -->
+    <text x="500" y="280" fill="#e8edf3" font-size="30" font-weight="700">결제가 실패한 뒤의 시간</text>
+    <line x1="520" y1="370" x2="1150" y2="370" stroke="#4b5f78" stroke-width="6" stroke-linecap="round"/>
+    <rect x="520" y="352" width="300" height="36" rx="18" fill="#3f8f73"/>
+    <rect x="820" y="352" width="300" height="36" rx="18" fill="#a5643a"/>
+    <circle cx="520" cy="370" r="16" fill="#e2574c"/>
+    <text x="500" y="430" fill="#f3c2bd" font-size="22">결제 실패</text>
+    <text x="610" y="342" fill="#bfe8d6" font-size="22">유예 기간 · 이용 유지</text>
+    <text x="890" y="342" fill="#f0cfb6" font-size="22">계정 보류 · 이용 중지</text>
+    <!-- once per day ticks -->
+    <g fill="#f2b13a">
+      <circle cx="600" cy="370" r="7"/><circle cx="680" cy="370" r="7"/><circle cx="760" cy="370" r="7"/>
+      <circle cx="900" cy="370" r="7"/><circle cx="980" cy="370" r="7"/><circle cx="1060" cy="370" r="7"/>
+    </g>
+    <text x="640" y="430" fill="#f2d79a" font-size="20">앱을 열 때 하루 한 번 안내</text>
+    <!-- result arrow -->
+    <path d="M560 500 C 700 470, 820 470, 930 500" stroke="#6fc3a3" stroke-width="4" fill="none"/>
+    <polygon points="930,500 912,488 914,508" fill="#6fc3a3"/>
+    <rect x="500" y="520" width="300" height="64" rx="12" fill="#13263a" stroke="#3f8f73" stroke-width="2"/>
+    <text x="520" y="560" fill="#bfe8d6" font-family="'DejaVu Sans Mono','Menlo','Consolas',monospace" font-size="18">SUBSCRIPTION_STATUS_UPDATED</text>
+    <rect x="860" y="520" width="290" height="64" rx="12" fill="#13263a" stroke="#4b5f78" stroke-width="2"/>
+    <text x="882" y="560" fill="#d5dde7" font-size="20">서버에서 구독 상태 갱신</text>
+    <text x="500" y="640" fill="#8ea2ba" font-size="20">Google Play Billing · In-App Messaging API 흐름 개념도</text>
+  </g>
+</svg>
