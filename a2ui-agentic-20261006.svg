@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14202b"/>
+      <stop offset="1" stop-color="#22343f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g font-family="'DejaVu Sans Mono','Menlo',monospace">
+    <rect x="70" y="120" width="300" height="480" rx="18" fill="#0d151d" stroke="#3a5161" stroke-width="3"/>
+    <rect x="95" y="150" width="250" height="70" rx="10" fill="#1b2a35"/>
+    <circle cx="120" cy="185" r="8" fill="#6fd39b"/>
+    <text x="140" y="192" fill="#cfe3ef" font-size="20">coordinator</text>
+    <rect x="95" y="240" width="250" height="60" rx="10" fill="#18252f"/>
+    <circle cx="120" cy="270" r="7" fill="#f0b64a"/>
+    <text x="140" y="277" fill="#a9c2d2" font-size="18">flight</text>
+    <rect x="95" y="315" width="250" height="60" rx="10" fill="#18252f"/>
+    <circle cx="120" cy="345" r="7" fill="#6fd39b"/>
+    <text x="140" y="352" fill="#a9c2d2" font-size="18">hotel</text>
+    <rect x="95" y="390" width="250" height="60" rx="10" fill="#18252f"/>
+    <circle cx="120" cy="420" r="7" fill="#6fd39b"/>
+    <text x="140" y="427" fill="#a9c2d2" font-size="18">museum</text>
+    <rect x="95" y="465" width="250" height="60" rx="10" fill="#18252f"/>
+    <circle cx="120" cy="495" r="7" fill="#f0b64a"/>
+    <text x="140" y="502" fill="#a9c2d2" font-size="18">restaurant</text>
+    <text x="95" y="570" fill="#6f8798" font-size="16">ADK · ParallelAgent</text>
+    <path d="M370 300 C 470 300, 470 260, 560 260" stroke="#5aa9e6" stroke-width="4" fill="none" stroke-dasharray="10 8"/>
+    <path d="M560 420 C 470 420, 470 460, 370 460" stroke="#f0b64a" stroke-width="4" fill="none" stroke-dasharray="10 8"/>
+    <text x="410" y="240" fill="#5aa9e6" font-size="16">SSE  /run_sse</text>
+    <text x="400" y="495" fill="#f0b64a" font-size="16">POST /respond</text>
+    <rect x="560" y="140" width="300" height="420" rx="16" fill="#0b1219" stroke="#33495a" stroke-width="2"/>
+    <text x="585" y="185" fill="#7fb7ff" font-size="17">"updateComponents": {</text>
+    <text x="605" y="220" fill="#a9c2d2" font-size="17">"surfaceId":</text>
+    <text x="625" y="250" fill="#e6c07b" font-size="17">"Flight Reservation"</text>
+    <text x="605" y="290" fill="#a9c2d2" font-size="17">"component":</text>
+    <text x="618" y="320" fill="#e6c07b" font-size="14">"InteractiveOptionPicker"</text>
+    <text x="605" y="360" fill="#a9c2d2" font-size="17">"options": [</text>
+    <text x="625" y="390" fill="#98d39e" font-size="17">"10:00 AM",</text>
+    <text x="625" y="420" fill="#98d39e" font-size="17">"2:00 PM"</text>
+    <text x="605" y="450" fill="#a9c2d2" font-size="17">]</text>
+    <text x="585" y="485" fill="#7fb7ff" font-size="17">}</text>
+    <text x="585" y="535" fill="#6f8798" font-size="15">catalog .../v1/catalog.json</text>
+    <rect x="920" y="80" width="300" height="560" rx="38" fill="#070b10" stroke="#3a5161" stroke-width="3"/>
+    <rect x="938" y="106" width="264" height="510" rx="24" fill="#f3f5f8"/>
+    <rect x="1030" y="92" width="80" height="8" rx="4" fill="#26303d"/>
+    <rect x="958" y="130" width="224" height="36" rx="10" fill="#dbe3ec"/>
+    <rect x="958" y="186" width="224" height="210" rx="16" fill="#ffffff" stroke="#cdd7e2" stroke-width="2"/>
+    <rect x="978" y="206" width="150" height="14" rx="7" fill="#8ea2b7"/>
+    <rect x="978" y="240" width="184" height="44" rx="22" fill="#e3ecf6" stroke="#5aa9e6" stroke-width="3"/>
+    <rect x="998" y="256" width="80" height="12" rx="6" fill="#3d6f99"/>
+    <rect x="978" y="296" width="184" height="44" rx="22" fill="#eef2f6" stroke="#cdd7e2" stroke-width="2"/>
+    <rect x="998" y="312" width="70" height="12" rx="6" fill="#8ea2b7"/>
+    <rect x="1050" y="352" width="112" height="32" rx="16" fill="#3d6f99"/>
+    <rect x="958" y="414" width="224" height="90" rx="16" fill="#ffffff" stroke="#cdd7e2" stroke-width="2"/>
+    <circle cx="988" cy="459" r="12" fill="#6fd39b"/>
+    <rect x="1010" y="444" width="130" height="12" rx="6" fill="#8ea2b7"/>
+    <rect x="1010" y="466" width="100" height="10" rx="5" fill="#c3cfdc"/>
+    <rect x="958" y="520" width="224" height="72" rx="16" fill="#ffffff" stroke="#cdd7e2" stroke-width="2"/>
+    <circle cx="988" cy="556" r="12" fill="#f0b64a"/>
+    <rect x="1010" y="542" width="120" height="12" rx="6" fill="#8ea2b7"/>
+    <rect x="1010" y="562" width="80" height="10" rx="5" fill="#c3cfdc"/>
+    <text x="935" y="675" fill="#6f8798" font-size="16">A2uiSurface · Compose</text>
+  </g>
+</svg>
