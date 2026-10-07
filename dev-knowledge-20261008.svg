@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1724"/>
+      <stop offset="1" stop-color="#1b2a3d"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7f4ec"/>
+      <stop offset="1" stop-color="#e9e3d5"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7fb8ff"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#9fb3c8">
+    <path d="M0 120 H1280 M0 240 H1280 M0 360 H1280 M0 480 H1280 M0 600 H1280"/>
+    <path d="M160 0 V720 M320 0 V720 M480 0 V720 M640 0 V720 M800 0 V720 M960 0 V720 M1120 0 V720"/>
+  </g>
+  <!-- terminal -->
+  <g transform="translate(60,110)">
+    <rect width="560" height="470" rx="14" fill="#0a0f16" stroke="#2c3b50" stroke-width="2"/>
+    <rect width="560" height="40" rx="14" fill="#1a2433"/>
+    <rect y="26" width="560" height="14" fill="#1a2433"/>
+    <circle cx="24" cy="20" r="7" fill="#e06c5b"/><circle cx="48" cy="20" r="7" fill="#e5c07b"/><circle cx="72" cy="20" r="7" fill="#7ec699"/>
+    <text x="280" y="26" fill="#8a99ad" font-family="DejaVu Sans Mono, monospace" font-size="14" text-anchor="middle">~/project — bash</text>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="17">
+      <text x="22" y="82" fill="#7ec699">$ gcloud developer-knowledge \</text>
+      <text x="46" y="108" fill="#d7e0ea">answer-query \</text>
+      <text x="46" y="134" fill="#d7e0ea">--query="Firestore transactions"</text>
+      <text x="22" y="176" fill="#8a99ad">answer:</text>
+      <text x="40" y="202" fill="#e5c07b">answerText: |-</text>
+      <text x="58" y="228" fill="#d7e0ea">Use a transaction to ...</text>
+      <text x="40" y="254" fill="#e5c07b">references:</text>
+      <text x="58" y="280" fill="#d7e0ea">- documentChunk:</text>
+      <text x="76" y="306" fill="#9ccfff">dataSource: firebase.google.com</text>
+      <text x="76" y="332" fill="#9ccfff">updateTime: '2026-..'</text>
+      <text x="22" y="380" fill="#7ec699">$ gcloud developer-knowledge \</text>
+      <text x="46" y="406" fill="#d7e0ea">documents search-chunks --limit=5</text>
+      <rect x="22" y="424" width="11" height="20" fill="#d7e0ea"/>
+    </g>
+  </g>
+  <!-- chunk cards flowing -->
+  <g font-family="DejaVu Sans Mono, monospace" font-size="13">
+    <g transform="translate(660,150) rotate(-4)">
+      <rect width="190" height="96" rx="8" fill="url(#card)"/>
+      <rect x="12" y="14" width="120" height="9" rx="3" fill="#4a6fa5"/>
+      <rect x="12" y="34" width="160" height="6" rx="3" fill="#b5ab97"/>
+      <rect x="12" y="48" width="140" height="6" rx="3" fill="#b5ab97"/>
+      <rect x="12" y="62" width="150" height="6" rx="3" fill="#b5ab97"/>
+      <text x="12" y="86" fill="#5b5446">chunk · 0.86</text>
+    </g>
+    <g transform="translate(690,300) rotate(3)">
+      <rect width="190" height="96" rx="8" fill="url(#card)"/>
+      <rect x="12" y="14" width="100" height="9" rx="3" fill="#4a6fa5"/>
+      <rect x="12" y="34" width="160" height="6" rx="3" fill="#b5ab97"/>
+      <rect x="12" y="48" width="130" height="6" rx="3" fill="#b5ab97"/>
+      <rect x="12" y="62" width="155" height="6" rx="3" fill="#b5ab97"/>
+      <text x="12" y="86" fill="#5b5446">documents/…</text>
+    </g>
+    <g transform="translate(665,450) rotate(-2)">
+      <rect width="190" height="96" rx="8" fill="#3a2326" stroke="#e06c5b" stroke-width="2"/>
+      <rect x="12" y="18" width="22" height="16" rx="3" fill="none" stroke="#e06c5b" stroke-width="3"/>
+      <path d="M16 18 v-5 a7 7 0 0 1 14 0 v5" fill="none" stroke="#e06c5b" stroke-width="3"/>
+      <text x="46" y="33" fill="#f0a39a">no credential</text>
+      <text x="14" y="62" fill="#f0a39a">"isError": true</text>
+      <text x="14" y="84" fill="#a07c78">tools/call</text>
+    </g>
+  </g>
+  <path d="M625 230 C 650 220, 650 210, 660 205" stroke="#7fb8ff" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <path d="M870 200 C 920 210, 930 230, 960 250" stroke="#7fb8ff" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <path d="M885 350 C 920 345, 935 335, 960 330" stroke="#7fb8ff" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+  <path d="M860 495 C 905 480, 920 450, 960 420" stroke="#e06c5b" stroke-width="3" stroke-dasharray="8 7" fill="none"/>
+  <!-- agent panel -->
+  <g transform="translate(965,150)">
+    <rect width="260" height="400" rx="14" fill="#16212f" stroke="#2c3b50" stroke-width="2"/>
+    <rect width="260" height="44" rx="14" fill="#203047"/>
+    <rect y="30" width="260" height="14" fill="#203047"/>
+    <circle cx="26" cy="22" r="10" fill="none" stroke="#7fb8ff" stroke-width="3"/>
+    <circle cx="26" cy="22" r="3" fill="#7fb8ff"/>
+    <text x="46" y="28" fill="#cfe2ff" font-family="DejaVu Sans, sans-serif" font-size="16">coding agent</text>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="13" fill="#9fb3c8">
+      <text x="18" y="76">search_documents</text>
+      <rect x="18" y="86" width="224" height="8" rx="3" fill="#2f4462"/>
+      <text x="18" y="124">get_documents</text>
+      <rect x="18" y="134" width="190" height="8" rx="3" fill="#2f4462"/>
+      <text x="18" y="172">answer_query</text>
+      <rect x="18" y="182" width="210" height="8" rx="3" fill="#2f4462"/>
+    </g>
+    <rect x="18" y="214" width="224" height="150" rx="8" fill="#0d1520" stroke="#2c3b50"/>
+    <g font-family="DejaVu Sans Mono, monospace" font-size="12">
+      <text x="30" y="238" fill="#7ec699">.agents/skills/</text>
+      <text x="44" y="258" fill="#d7e0ea">retrieving-developer-</text>
+      <text x="44" y="276" fill="#d7e0ea">knowledge/SKILL.md</text>
+      <text x="30" y="306" fill="#e5c07b">from google import</text>
+      <text x="44" y="324" fill="#e5c07b">developer_knowledge_v1</text>
+      <text x="30" y="350" fill="#e06c5b" text-decoration="line-through">google.cloud</text>
+    </g>
+  </g>
+  <text x="60" y="80" fill="#cfe2ff" font-family="DejaVu Sans, sans-serif" font-size="22" letter-spacing="1">Docs in, guesses out</text>
+  <text x="60" y="640" fill="#6f8399" font-family="DejaVu Sans Mono, monospace" font-size="15">developerknowledge.googleapis.com  ·  /v1  ·  /mcp</text>
+</svg>
