@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14181f"/><stop offset="1" stop-color="#1f2a36"/>
+    </linearGradient>
+    <linearGradient id="gw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b4c6f"/><stop offset="1" stop-color="#1d3550"/>
+    </linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f0b45a"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <g font-family="DejaVu Sans Mono, monospace">
+    <rect x="80" y="130" width="440" height="640" rx="18" fill="#232c38" stroke="#4a5a6e" stroke-width="3"/>
+    <rect x="80" y="130" width="440" height="56" rx="18" fill="#2e3a4a"/>
+    <circle cx="112" cy="158" r="8" fill="#e06c6c"/><circle cx="138" cy="158" r="8" fill="#e0b85a"/><circle cx="164" cy="158" r="8" fill="#6cc48a"/>
+    <text x="200" y="166" font-size="22" fill="#9fb2c8">openapi.yaml</text>
+    <text x="110" y="235" font-size="22" fill="#7fd1c0">openapi: 3.0.4</text>
+    <text x="110" y="280" font-size="22" fill="#d9a7f0">x-google-api-management:</text>
+    <text x="140" y="315" font-size="22" fill="#f0b45a">mcp: true</text>
+    <text x="110" y="365" font-size="22" fill="#cfd8e3">paths:</text>
+    <rect x="120" y="390" width="370" height="64" rx="10" fill="#2c3f55" stroke="#6ea8dc" stroke-width="2"/>
+    <text x="140" y="430" font-size="22" fill="#cfe3f5">GET  /orders/{id}</text>
+    <rect x="120" y="474" width="370" height="64" rx="10" fill="#2c3f55" stroke="#6ea8dc" stroke-width="2"/>
+    <text x="140" y="514" font-size="22" fill="#cfe3f5">GET  /orders</text>
+    <rect x="120" y="558" width="370" height="64" rx="10" fill="#2a2f38" stroke="#5b6472" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="140" y="598" font-size="22" fill="#7c8696">POST /orders/cancel</text>
+    <rect x="120" y="642" width="370" height="64" rx="10" fill="#2a2f38" stroke="#5b6472" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="140" y="682" font-size="22" fill="#7c8696">DELETE /orders/{id}</text>
+    <path d="M495 422 C 560 422, 560 400, 620 400" stroke="#f0b45a" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+    <path d="M495 506 C 560 506, 560 470, 620 470" stroke="#f0b45a" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+    <rect x="630" y="230" width="360" height="440" rx="28" fill="url(#gw)" stroke="#6ea8dc" stroke-width="4"/>
+    <text x="810" y="300" font-size="28" fill="#e8f1fa" text-anchor="middle">API Gateway</text>
+    <rect x="690" y="335" width="240" height="70" rx="35" fill="#f0b45a"/>
+    <text x="810" y="380" font-size="30" fill="#1b2430" text-anchor="middle" font-weight="bold">POST /mcp</text>
+    <path d="M720 450 L760 435 L800 450 L800 490 C800 520 780 535 760 545 C740 535 720 520 720 490 Z" fill="#3c6a96" stroke="#9fc7ee" stroke-width="3"/>
+    <path d="M742 488 L756 502 L780 474" stroke="#e8f1fa" stroke-width="5" fill="none"/>
+    <text x="820" y="478" font-size="20" fill="#cfe3f5">JWT / key</text>
+    <text x="820" y="508" font-size="20" fill="#cfe3f5">quota</text>
+    <text x="820" y="538" font-size="20" fill="#cfe3f5">logging</text>
+    <text x="810" y="625" font-size="20" fill="#9fb2c8" text-anchor="middle">tools/call → REST</text>
+    <path d="M990 400 C 1060 400, 1060 360, 1120 360" stroke="#f0b45a" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+    <path d="M1120 540 C 1060 540, 1060 500, 995 500" stroke="#6cc48a" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+    <rect x="1130" y="200" width="400" height="500" rx="22" fill="#232c38" stroke="#4a5a6e" stroke-width="3"/>
+    <circle cx="1330" cy="285" r="48" fill="#2f4d3c" stroke="#6cc48a" stroke-width="4"/>
+    <rect x="1305" y="268" width="50" height="34" rx="8" fill="#6cc48a"/>
+    <circle cx="1318" cy="285" r="5" fill="#1b2430"/><circle cx="1342" cy="285" r="5" fill="#1b2430"/>
+    <line x1="1330" y1="268" x2="1330" y2="250" stroke="#6cc48a" stroke-width="4"/>
+    <circle cx="1330" cy="246" r="6" fill="#6cc48a"/>
+    <text x="1170" y="390" font-size="22" fill="#9fb2c8">tools/list</text>
+    <rect x="1165" y="410" width="330" height="58" rx="10" fill="#2c3f55" stroke="#6cc48a" stroke-width="2"/>
+    <text x="1185" y="447" font-size="21" fill="#cfe3f5">get_order_status</text>
+    <rect x="1165" y="484" width="330" height="58" rx="10" fill="#2c3f55" stroke="#6cc48a" stroke-width="2"/>
+    <text x="1185" y="521" font-size="21" fill="#cfe3f5">list_orders</text>
+    <rect x="1165" y="558" width="330" height="58" rx="10" fill="#2a2f38" stroke="#5b6472" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="1185" y="595" font-size="21" fill="#7c8696">write tools: later</text>
+  </g>
+</svg>
