@@ -17,13 +17,13 @@
       <path d="M318 204 q6 6 12 0 t12 0 t12 0 t12 0" stroke="#ff6b5b" stroke-width="3" fill="none"/>
       <text x="30" y="238" fill="#5c6270">4</text><text x="80" y="238" fill="#8fb4e8">    function <tspan fill="#e6c07b">isOwner</tspan>(userId) {</text>
       <text x="30" y="278" fill="#5c6270">5</text><text x="80" y="278" fill="#c9ced8">      return request.auth != null</text>
-      <text x="30" y="318" fill="#5c6270">6</text><text x="80" y="318" fill="#c9ced8">        && request.auth.uid == userId;</text>
+      <text x="30" y="318" fill="#5c6270">6</text><text x="80" y="318" fill="#c9ced8">        <![CDATA[&&]]> request.auth.uid == userId;</text>
       <text x="30" y="358" fill="#5c6270">7</text><text x="80" y="358" fill="#c9ced8">    }</text>
       <text x="30" y="398" fill="#5c6270">…</text><text x="80" y="398" fill="#6d7380">    function isValidWorkout(data) { … }</text>
       <text x="30" y="438" fill="#5c6270">…</text><text x="80" y="438" fill="#c9ced8">    match /users/{userId} {</text>
       <text x="30" y="478" fill="#5c6270">…</text><text x="80" y="478" fill="#c9ced8">      match /workouts/{workoutId} {</text>
       <text x="30" y="518" fill="#5c6270">…</text><text x="80" y="518" fill="#9fd39a">        allow create: if isOwner(userId)</text>
-      <text x="30" y="558" fill="#5c6270">…</text><text x="80" y="558" fill="#9fd39a">          && isValidWorkout(request.resource.data)</text>
+      <text x="30" y="558" fill="#5c6270">…</text><text x="80" y="558" fill="#9fd39a">          <![CDATA[&&]]> isValidWorkout(request.resource.data)</text>
     </g>
     <rect x="30" y="610" width="700" height="80" rx="10" fill="#2b1a1b" stroke="#7a3532"/>
     <text x="52" y="644" font-family="Geist Mono, monospace" font-size="20" fill="#ff9b8f">Error compiling rules:</text>
