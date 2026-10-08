@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b1d24"/><stop offset="1" stop-color="#2a2420"/></linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- left: editor with firestore.rules -->
+  <g transform="translate(70,90)">
+    <rect width="760" height="720" rx="18" fill="#14161b" stroke="#3a3d47" stroke-width="2"/>
+    <rect width="760" height="52" rx="18" fill="#22252d"/><rect y="34" width="760" height="18" fill="#22252d"/>
+    <circle cx="32" cy="26" r="8" fill="#e5675b"/><circle cx="58" cy="26" r="8" fill="#e6b54a"/><circle cx="84" cy="26" r="8" fill="#5fc06a"/>
+    <text x="120" y="33" font-family="Geist Mono, monospace" font-size="20" fill="#9aa0ad">firestore.rules</text>
+    <g font-family="Geist Mono, monospace" font-size="22">
+      <text x="30" y="110" fill="#5c6270">1</text><text x="80" y="110" fill="#c9ced8">rules_version = '2';</text>
+      <text x="30" y="150" fill="#5c6270">2</text><text x="80" y="150" fill="#c9ced8">service cloud.firestore {</text>
+      <rect x="66" y="166" width="680" height="40" fill="#4a1f22"/>
+      <text x="30" y="194" fill="#e5675b">3</text><text x="80" y="194" fill="#f0d6d6">  match /databases/<tspan fill="#ff8a7a" font-weight="700">$</tspan>{database}/documents {</text>
+      <path d="M318 204 q6 6 12 0 t12 0 t12 0 t12 0" stroke="#ff6b5b" stroke-width="3" fill="none"/>
+      <text x="30" y="238" fill="#5c6270">4</text><text x="80" y="238" fill="#8fb4e8">    function <tspan fill="#e6c07b">isOwner</tspan>(userId) {</text>
+      <text x="30" y="278" fill="#5c6270">5</text><text x="80" y="278" fill="#c9ced8">      return request.auth != null</text>
+      <text x="30" y="318" fill="#5c6270">6</text><text x="80" y="318" fill="#c9ced8">        && request.auth.uid == userId;</text>
+      <text x="30" y="358" fill="#5c6270">7</text><text x="80" y="358" fill="#c9ced8">    }</text>
+      <text x="30" y="398" fill="#5c6270">…</text><text x="80" y="398" fill="#6d7380">    function isValidWorkout(data) { … }</text>
+      <text x="30" y="438" fill="#5c6270">…</text><text x="80" y="438" fill="#c9ced8">    match /users/{userId} {</text>
+      <text x="30" y="478" fill="#5c6270">…</text><text x="80" y="478" fill="#c9ced8">      match /workouts/{workoutId} {</text>
+      <text x="30" y="518" fill="#5c6270">…</text><text x="80" y="518" fill="#9fd39a">        allow create: if isOwner(userId)</text>
+      <text x="30" y="558" fill="#5c6270">…</text><text x="80" y="558" fill="#9fd39a">          && isValidWorkout(request.resource.data)</text>
+    </g>
+    <rect x="30" y="610" width="700" height="80" rx="10" fill="#2b1a1b" stroke="#7a3532"/>
+    <text x="52" y="644" font-family="Geist Mono, monospace" font-size="20" fill="#ff9b8f">Error compiling rules:</text>
+    <text x="52" y="674" font-family="Geist Mono, monospace" font-size="20" fill="#f3c3bd">L3:20 Unexpected '$'.</text>
+  </g>
+  <!-- right: terminal with emulator test -->
+  <g transform="translate(880,90)">
+    <rect width="650" height="720" rx="18" fill="#0f1114" stroke="#3a3d47" stroke-width="2"/>
+    <rect width="650" height="52" rx="18" fill="#1d2026"/><rect y="34" width="650" height="18" fill="#1d2026"/>
+    <text x="30" y="33" font-family="Geist Mono, monospace" font-size="20" fill="#9aa0ad">firestore emulator · 127.0.0.1:8085</text>
+    <g font-family="Geist Mono, monospace" font-size="21">
+      <text x="30" y="110" fill="#7f8796">$ node rules-test.mjs fixed</text>
+      <text x="30" y="160" fill="#7fd08a">ALLOW <tspan fill="#c9ced8">owner create valid</tspan></text>
+      <text x="30" y="200" fill="#ff8a7a">DENY  <tspan fill="#c9ced8">extra field</tspan></text>
+      <text x="30" y="240" fill="#ff8a7a">DENY  <tspan fill="#c9ced8">type = Swim</tspan></text>
+      <text x="30" y="280" fill="#ff8a7a">DENY  <tspan fill="#c9ced8">date +09:00</tspan></text>
+      <text x="30" y="320" fill="#ff8a7a">DENY  <tspan fill="#c9ced8">other user read</tspan></text>
+      <text x="30" y="360" fill="#ff8a7a">DENY  <tspan fill="#c9ced8">signed-out read</tspan></text>
+    </g>
+    <rect x="30" y="400" width="590" height="150" rx="12" fill="#2a2216" stroke="#b9822f" stroke-width="2"/>
+    <text x="56" y="448" font-family="Geist Mono, monospace" font-size="22" fill="#f2c26b">bulk writes allowed</text>
+    <text x="56" y="516" font-family="Geist Mono, monospace" font-size="56" font-weight="700" fill="#ffd28a">300 / 300</text>
+    <g font-family="Geist Mono, monospace" font-size="20" fill="#9aa0ad">
+      <text x="30" y="610">$ codex plugin list</text>
+      <text x="30" y="645" fill="#c9ced8">firebase@firebase  installed, enabled  1.1.0</text>
+      <text x="30" y="685">tools/list  19 → 44</text>
+    </g>
+  </g>
+</svg>
