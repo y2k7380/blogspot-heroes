@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#161a22"/>
+  <g transform="translate(122,112)">
+    <rect width="1356" height="676" rx="22" fill="#1f232d" stroke="#3a3f4c" stroke-width="2"/>
+    <circle cx="52" cy="42" r="13" fill="#ff5f56"/><circle cx="96" cy="42" r="13" fill="#ffbd2e"/><circle cx="140" cy="42" r="13" fill="#27c93f"/>
+    <g font-family="Geist Mono, DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="34">
+      <text x="58" y="138" fill="#8a91a0"># interactions.create(...)</text>
+      <text x="58" y="196" fill="#f07178">-  agent="deep-research-pro-preview-12-2025"</text>
+      <text x="58" y="254" fill="#7fd88f">+  agent="deep-research-preview-04-2026"</text>
+      <text x="58" y="312" fill="#8a91a0">   background=True</text>
+      <text x="58" y="428" fill="#f2c14e">shutdown: 2026-10-23</text>
+      <text x="58" y="486" fill="#8a91a0"># model string</text>
+      <text x="58" y="544" fill="#f07178">-  model="gemini-3.7-flash"</text>
+      <text x="58" y="602" fill="#7fd88f">+  model="gemini-3.8-flash"</text>
+    </g>
+  </g>
+</svg>
