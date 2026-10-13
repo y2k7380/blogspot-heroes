@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0e1624"/>
+      <stop offset="1" stop-color="#152238"/>
+    </linearGradient>
+    <linearGradient id="host" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2d48"/>
+      <stop offset="1" stop-color="#152338"/>
+    </linearGradient>
+    <linearGradient id="vm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#123528"/>
+      <stop offset="1" stop-color="#0d241c"/>
+    </linearGradient>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#f2c14e"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.035">
+    <circle cx="1200" cy="70" r="150"/><circle cx="60" cy="680" r="110"/>
+  </g>
+
+  <text x="56" y="58" font-family="NanumGothic, 'Noto Sans CJK KR', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" font-size="28" font-weight="bold" fill="#e8eef7">Googlebook Linux Terminal · VM sandbox</text>
+  <text x="56" y="90" font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16" fill="#7f93ad">host OS  /  mount boundary  /  Debian VM</text>
+
+  <!-- Host OS panel -->
+  <rect x="48" y="120" width="520" height="520" rx="18" fill="url(#host)" stroke="#3a5578" stroke-width="2"/>
+  <text x="308" y="156" text-anchor="middle" font-family="NanumGothic, 'Noto Sans CJK KR', sans-serif" font-size="20" font-weight="bold" fill="#c9d7ea">Host (Googlebook OS)</text>
+
+  <!-- Files app folders -->
+  <rect x="76" y="184" width="200" height="120" rx="10" fill="#0b1420" stroke="#5a7a9e" stroke-width="2"/>
+  <text x="176" y="216" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="15" fill="#9fb1c8">Files app</text>
+  <rect x="96" y="236" width="72" height="44" rx="6" fill="#243652" stroke="#f2c14e" stroke-width="2"/>
+  <text x="132" y="264" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="13" fill="#f2c14e">Photos</text>
+  <rect x="184" y="236" width="72" height="44" rx="6" fill="#243652" stroke="#8aa0bb" stroke-width="1.5"/>
+  <text x="220" y="264" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="13" fill="#8aa0bb">Docs</text>
+  <text x="176" y="340" text-anchor="middle" font-family="NanumGothic, sans-serif" font-size="15" fill="#9fb1c8">마운트 안 된 폴더</text>
+
+  <!-- Unmounted shield -->
+  <rect x="300" y="184" width="240" height="120" rx="10" fill="#0b1420" stroke="#ef6b5b" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="420" y="236" text-anchor="middle" font-family="NanumGothic, sans-serif" font-size="17" font-weight="bold" fill="#ef6b5b">private / unmounted</text>
+  <text x="420" y="268" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="14" fill="#c98a84">VM에서 안 보임</text>
+
+  <!-- Explicit mount gate -->
+  <rect x="160" y="340" width="280" height="56" rx="12" fill="#0f1b2d" stroke="#4fb3ff" stroke-width="3"/>
+  <text x="300" y="376" text-anchor="middle" font-family="NanumGothic, sans-serif" font-size="18" font-weight="bold" fill="#4fb3ff">명시적 권한 후 mount</text>
+
+  <line x1="300" y1="396" x2="300" y2="448" stroke="#4fb3ff" stroke-width="3" marker-end="url(#arr)"/>
+
+  <!-- Mounted folder chip -->
+  <rect x="200" y="452" width="200" height="48" rx="8" fill="#1a3a55" stroke="#4fb3ff" stroke-width="2"/>
+  <text x="300" y="482" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="16" fill="#7ec8ff">~/work  (shared)</text>
+
+  <!-- Reset note -->
+  <rect x="76" y="540" width="464" height="72" rx="10" fill="#0b1420" stroke="#f2c14e" stroke-width="2"/>
+  <text x="308" y="572" text-anchor="middle" font-family="NanumGothic, sans-serif" font-size="17" font-weight="bold" fill="#f2c14e">one-click VM reset</text>
+  <text x="308" y="598" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="14" fill="#c9d7ea">host files retained</text>
+
+  <!-- VM panel -->
+  <rect x="612" y="120" width="620" height="520" rx="18" fill="url(#vm)" stroke="#2f8f6a" stroke-width="2"/>
+  <text x="922" y="156" text-anchor="middle" font-family="NanumGothic, 'Noto Sans CJK KR', sans-serif" font-size="20" font-weight="bold" fill="#b8e6cf">Debian Linux VM</text>
+
+  <!-- Terminal window -->
+  <rect x="644" y="184" width="556" height="280" rx="12" fill="#07140f" stroke="#3a7a5c" stroke-width="2"/>
+  <rect x="644" y="184" width="556" height="36" rx="12" fill="#143528"/>
+  <rect x="644" y="204" width="556" height="16" fill="#143528"/>
+  <circle cx="672" cy="202" r="6" fill="#ef6b5b"/><circle cx="694" cy="202" r="6" fill="#f2c14e"/><circle cx="716" cy="202" r="6" fill="#5fc27e"/>
+  <text x="922" y="208" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="14" fill="#8fbba6">terminal preview</text>
+  <g font-family="'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="16">
+    <text x="668" y="250" fill="#5fc27e">$ <tspan fill="#d9e3f0">sudo apt update</tspan></text>
+    <text x="668" y="286" fill="#5fc27e">$ <tspan fill="#d9e3f0">curl -fsSL …/cli/install.sh | bash</tspan></text>
+    <text x="668" y="322" fill="#5fc27e">$ <tspan fill="#d9e3f0">agy</tspan></text>
+    <text x="668" y="368" fill="#8fbba6"># agent cmds stay inside VM</text>
+    <text x="668" y="404" fill="#f2c14e">sudo OK · host boundary holds</text>
+    <text x="668" y="440" fill="#8fbba6">localhost → host browser</text>
+  </g>
+
+  <!-- Boundary labels -->
+  <rect x="644" y="492" width="260" height="52" rx="8" fill="#0a1f16" stroke="#5fc27e" stroke-width="2"/>
+  <text x="774" y="524" text-anchor="middle" font-family="NanumGothic, sans-serif" font-size="16" fill="#7fd88f">apt · git · Node · Python</text>
+  <rect x="920" y="492" width="280" height="52" rx="8" fill="#0a1f16" stroke="#f2c14e" stroke-width="2"/>
+  <text x="1060" y="524" text-anchor="middle" font-family="NanumGothic, sans-serif" font-size="16" fill="#f2c14e">roadmap: USB ADB · GPU/NPU</text>
+
+  <rect x="644" y="564" width="556" height="52" rx="8" fill="#0a1f16" stroke="#4fb3ff" stroke-width="2"/>
+  <text x="922" y="596" text-anchor="middle" font-family="'DejaVu Sans Mono', monospace" font-size="15" fill="#7ec8ff">Antigravity + Terminal · folder grant both</text>
+</svg>
