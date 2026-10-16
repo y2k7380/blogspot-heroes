@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1a24"/>
+      <stop offset="1" stop-color="#1a3548"/>
+    </linearGradient>
+    <linearGradient id="cardA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3f52"/>
+      <stop offset="1" stop-color="#1e2f3e"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1e4a3a"/>
+      <stop offset="1" stop-color="#16362c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- title strip -->
+  <text x="80" y="78" font-family="sans-serif" font-size="36" fill="#8eb4c8">Firebase Test Lab · device catalog</text>
+  <text x="80" y="130" font-family="sans-serif" font-size="52" font-weight="bold" fill="#e8f1f6">Pixel2.arm → MediumPhone.arm</text>
+
+  <!-- left deprecated card -->
+  <rect x="80" y="200" width="520" height="520" rx="28" fill="url(#cardA)" stroke="#c45c5c" stroke-width="4"/>
+  <rect x="110" y="230" width="140" height="36" rx="18" fill="#c45c5c"/>
+  <text x="180" y="255" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#fff">DEPRECATED</text>
+  <!-- phone outline -->
+  <rect x="230" y="290" width="220" height="300" rx="28" fill="#0f1820" stroke="#7a8fa0" stroke-width="6"/>
+  <rect x="255" y="330" width="170" height="200" rx="8" fill="#243444"/>
+  <circle cx="340" cy="555" r="14" fill="#4a5d6e"/>
+  <text x="340" y="620" text-anchor="middle" font-family="monospace" font-size="28" font-weight="bold" fill="#f0c0c0">Pixel2.arm</text>
+  <text x="340" y="660" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#a8b8c4">API 26 → 33</text>
+  <text x="340" y="695" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#e07070">remove 2026-11-15</text>
+
+  <!-- arrow -->
+  <path d="M640 440 L760 440" stroke="#7ec8a0" stroke-width="10" stroke-linecap="round"/>
+  <path d="M740 410 L790 440 L740 470" fill="none" stroke="#7ec8a0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="715" y="400" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#9fd4b8">migrate</text>
+
+  <!-- right replacement card -->
+  <rect x="820" y="200" width="520" height="520" rx="28" fill="url(#cardB)" stroke="#5cb88a" stroke-width="4"/>
+  <rect x="850" y="230" width="180" height="36" rx="18" fill="#3d9a6c"/>
+  <text x="940" y="255" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#fff">REPLACEMENT</text>
+  <rect x="970" y="290" width="220" height="300" rx="28" fill="#0f1820" stroke="#6aaf90" stroke-width="6"/>
+  <rect x="995" y="330" width="170" height="200" rx="8" fill="#1a3a30"/>
+  <circle cx="1080" cy="555" r="14" fill="#4a7a68"/>
+  <text x="1080" y="620" text-anchor="middle" font-family="monospace" font-size="26" font-weight="bold" fill="#b8f0d0">MediumPhone.arm</text>
+  <text x="1080" y="660" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#a8c8bc">same API level</text>
+  <text x="1080" y="695" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#8ecfb0">keep tests running</text>
+
+  <!-- bottom timeline bar -->
+  <rect x="80" y="760" width="1440" height="90" rx="18" fill="#132430"/>
+  <text x="120" y="815" font-family="sans-serif" font-size="28" fill="#8eb4c8">short:</text>
+  <text x="220" y="815" font-family="sans-serif" font-size="28" font-weight="bold" fill="#e8c070">2026-11-15</text>
+  <text x="430" y="815" font-family="sans-serif" font-size="26" fill="#a8b8c4">device IDs gone</text>
+  <text x="780" y="815" font-family="sans-serif" font-size="28" fill="#8eb4c8">long:</text>
+  <text x="880" y="815" font-family="sans-serif" font-size="28" font-weight="bold" fill="#e07070">2027-09-30</text>
+  <text x="1100" y="815" font-family="sans-serif" font-size="26" fill="#a8b8c4">Test Lab → DDP</text>
+</svg>
