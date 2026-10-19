@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="DejaVu Sans Mono, Menlo, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1724"/>
+      <stop offset="1" stop-color="#1b2a3d"/>
+    </linearGradient>
+    <marker id="ar" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#9fb3c8"/>
+    </marker>
+    <marker id="arr" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#f2a65a"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g opacity="0.08" stroke="#ffffff">
+    <path d="M0 120 H1280 M0 240 H1280 M0 360 H1280 M0 480 H1280 M0 600 H1280"/>
+    <path d="M160 0 V720 M320 0 V720 M480 0 V720 M640 0 V720 M800 0 V720 M960 0 V720 M1120 0 V720"/>
+  </g>
+
+  <!-- client device with hardware keystore -->
+  <rect x="70" y="150" width="330" height="420" rx="26" fill="#22344a" stroke="#4a6584" stroke-width="3"/>
+  <text x="100" y="200" fill="#cfe0f2" font-size="24">client</text>
+  <rect x="110" y="235" width="250" height="150" rx="14" fill="#0f1c2b" stroke="#6fbf8f" stroke-width="3"/>
+  <text x="130" y="272" fill="#6fbf8f" font-size="20">keystore</text>
+  <text x="130" y="305" fill="#9fb3c8" font-size="18">EC P-256</text>
+  <text x="130" y="335" fill="#9fb3c8" font-size="18">private: no export</text>
+  <!-- key icon -->
+  <circle cx="325" cy="364" r="15" fill="none" stroke="#f2d06b" stroke-width="5"/>
+  <path d="M310 364 H272 M280 364 V376 M291 364 V373" stroke="#f2d06b" stroke-width="5" fill="none"/>
+  <!-- proof jwt card -->
+  <rect x="110" y="410" width="250" height="130" rx="12" fill="#2d4560" stroke="#8fb0d0" stroke-width="2"/>
+  <text x="128" y="442" fill="#e7eef6" font-size="18">DPoP proof</text>
+  <text x="128" y="470" fill="#9fb3c8" font-size="16">htm  POST</text>
+  <text x="128" y="494" fill="#9fb3c8" font-size="16">jti  iat  nonce</text>
+  <text x="128" y="518" fill="#9fb3c8" font-size="16">ES256 signed</text>
+
+  <!-- token endpoint server -->
+  <rect x="880" y="150" width="330" height="420" rx="26" fill="#22344a" stroke="#4a6584" stroke-width="3"/>
+  <text x="910" y="200" fill="#cfe0f2" font-size="24">token endpoint</text>
+  <rect x="920" y="230" width="250" height="44" rx="8" fill="#0f1c2b"/>
+  <rect x="920" y="290" width="250" height="44" rx="8" fill="#0f1c2b"/>
+  <rect x="920" y="350" width="250" height="44" rx="8" fill="#0f1c2b"/>
+  <circle cx="945" cy="252" r="7" fill="#6fbf8f"/>
+  <circle cx="945" cy="312" r="7" fill="#6fbf8f"/>
+  <circle cx="945" cy="372" r="7" fill="#f2a65a"/>
+  <text x="965" y="259" fill="#9fb3c8" font-size="17">POST /token</text>
+  <text x="965" y="319" fill="#9fb3c8" font-size="17">DPoP-Nonce</text>
+  <text x="965" y="379" fill="#9fb3c8" font-size="17">bind refresh</text>
+  <!-- refresh token ticket with chain -->
+  <rect x="920" y="430" width="250" height="100" rx="12" fill="#3a2f22" stroke="#f2d06b" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="940" y="470" fill="#f2d06b" font-size="19">refresh_token</text>
+  <text x="940" y="502" fill="#d8c48a" font-size="16">bound to key</text>
+
+  <!-- request arrow -->
+  <path d="M410 300 C560 250 720 250 870 300" stroke="#9fb3c8" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+  <text x="560" y="240" fill="#cfe0f2" font-size="20">refresh + proof</text>
+  <!-- 400 challenge back -->
+  <path d="M870 380 C720 430 560 430 410 380" stroke="#f2a65a" stroke-width="4" fill="none" stroke-dasharray="12 8" marker-end="url(#arr)"/>
+  <text x="520" y="462" fill="#f2a65a" font-size="22">400 use_dpop_nonce</text>
+  <!-- retry ok -->
+  <path d="M410 520 C560 590 720 590 870 520" stroke="#6fbf8f" stroke-width="4" fill="none" marker-end="url(#ar)"/>
+  <text x="535" y="622" fill="#6fbf8f" font-size="20">retry, new nonce: 200</text>
+
+  <!-- bearer access token (unbound) -->
+  <rect x="560" y="300" width="160" height="56" rx="10" fill="#1a2737" stroke="#5d7894" stroke-width="2"/>
+  <text x="578" y="334" fill="#9fb3c8" font-size="17">access: Bearer</text>
+
+  <text x="70" y="90" fill="#e7eef6" font-size="34">refresh token, bound to one private key</text>
+</svg>
