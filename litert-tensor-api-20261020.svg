@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1b2d"/><stop offset="1" stop-color="#16263f"/></linearGradient>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8fb3ff"/></marker>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <text x="64" y="92" font-family="DejaVu Sans Mono, monospace" font-size="40" fill="#e8eefc" font-weight="bold">LiteRT Tensor API</text>
+  <text x="64" y="134" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#9fb2d6">C++ graph authoring for on-device models</text>
+  <rect x="64" y="190" width="520" height="440" rx="18" fill="#0b1422" stroke="#2c4366" stroke-width="2"/>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="19">
+    <text x="92" y="232" fill="#7d8fb0">// lazy graph: nothing runs yet</text>
+    <text x="92" y="270" fill="#c3d3f2">template &lt;class... Mixins&gt;</text>
+    <text x="92" y="302" fill="#c3d3f2">Tensor&lt;Mixins...&gt; Mlp(x, w) {</text>
+    <text x="120" y="334" fill="#ffd27d">  g = Gelu(FullyConnected(x, w.g));</text>
+    <text x="120" y="366" fill="#ffd27d">  u = FullyConnected(x, w.u);</text>
+    <text x="120" y="398" fill="#ffd27d">  return FullyConnected(g*u, w.d);</text>
+    <text x="92" y="430" fill="#c3d3f2">}</text>
+    <text x="92" y="482" fill="#7d8fb0">// weights from .safetensors</text>
+    <text x="92" y="520" fill="#9be7b0">XnnpackRunner::Create({y});</text>
+    <text x="92" y="558" fill="#9be7b0">ModelFactory.Save("m.tflite");</text>
+    <text x="92" y="596" fill="#7d8fb0">GraphProbe: GPU vs CPU check</text>
+  </g>
+  <g font-family="DejaVu Sans, sans-serif">
+    <path d="M590,410 C660,410 660,250 720,250" stroke="#8fb3ff" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+    <path d="M590,410 L720,410" stroke="#8fb3ff" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+    <path d="M590,410 C660,410 660,570 720,570" stroke="#8fb3ff" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+    <rect x="726" y="196" width="490" height="108" rx="14" fill="#13325a" stroke="#4f86d9" stroke-width="2"/>
+    <text x="752" y="240" font-size="26" fill="#e8eefc" font-weight="bold">TfLiteMixinTag → .tflite</text>
+    <text x="752" y="276" font-size="19" fill="#a9bde0">LiteRT CPU · GPU · NPU, LiteRT.js</text>
+    <rect x="726" y="356" width="490" height="108" rx="14" fill="#15402e" stroke="#4fbf86" stroke-width="2"/>
+    <text x="752" y="400" font-size="26" fill="#e8eefc" font-weight="bold">XnnpackMixinTag → CPU</text>
+    <text x="752" y="436" font-size="19" fill="#a9d9c0">no model file · Bazel only today</text>
+    <rect x="726" y="516" width="490" height="108" rx="14" fill="#47301a" stroke="#d99a4f" stroke-width="2"/>
+    <text x="752" y="560" font-size="26" fill="#e8eefc" font-weight="bold">MlDriftMixinTag → GPU</text>
+    <text x="752" y="596" font-size="19" fill="#e3c39d">OpenCL · WebGPU · Bazel only today</text>
+  </g>
+</svg>
