@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14161f"/><stop offset="1" stop-color="#232a3a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb648"/><stop offset="1" stop-color="#ff7a3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- editor window -->
+  <rect x="110" y="110" width="900" height="640" rx="18" fill="#1b1f2b" stroke="#3a4257" stroke-width="2"/>
+  <rect x="110" y="110" width="900" height="54" rx="18" fill="#262c3c"/>
+  <rect x="110" y="146" width="900" height="18" fill="#262c3c"/>
+  <circle cx="148" cy="137" r="9" fill="#ff6b6b"/><circle cx="178" cy="137" r="9" fill="#ffd166"/><circle cx="208" cy="137" r="9" fill="#06d6a0"/>
+  <text x="250" y="144" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#9aa4bd">MainActivity.kt</text>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="24">
+    <text x="150" y="230" fill="#5c6680">1</text><text x="200" y="230" fill="#c792ea">import</text><text x="300" y="230" fill="#d6deeb">com.google.firebase.ai.*</text>
+    <text x="150" y="290" fill="#5c6680">2</text>
+    <rect x="190" y="306" width="790" height="48" fill="#4a1f26"/>
+    <text x="150" y="340" fill="#ff8a8a">3</text><text x="200" y="340" fill="#ff8a8a">- GenerativeBackend.vertexAI()</text>
+    <line x1="230" y1="331" x2="610" y2="331" stroke="#ff8a8a" stroke-width="3"/>
+    <rect x="190" y="366" width="790" height="48" fill="#1f3d2c"/>
+    <text x="150" y="400" fill="#7ee2a8">4</text><text x="200" y="400" fill="#7ee2a8">+ GenerativeBackend.agentPlatform()</text>
+    <text x="150" y="470" fill="#5c6680">5</text><text x="200" y="470" fill="#82aaff">location</text><text x="330" y="470" fill="#d6deeb">=</text>
+    <text x="370" y="470" fill="#5c6680">"us-central1"</text>
+    <text x="580" y="470" fill="#ffb648">→  "global"</text>
+    <text x="150" y="540" fill="#5c6680">6</text><text x="200" y="540" fill="#637777">// firebase-ai 18.0.0 · BoM 35.0.0</text>
+    <text x="150" y="600" fill="#5c6680">7</text><text x="200" y="600" fill="#637777">// JS SDK 13.0.0 · AgentPlatformBackend</text>
+  </g>
+  <!-- location panel -->
+  <rect x="1080" y="170" width="410" height="520" rx="18" fill="#1b1f2b" stroke="#3a4257" stroke-width="2"/>
+  <text x="1115" y="225" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#9aa4bd">model location</text>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="26">
+    <rect x="1110" y="260" width="350" height="78" rx="12" fill="#2a2f3f"/>
+    <text x="1135" y="310" fill="#8b93a7">us-central1</text>
+    <text x="1395" y="310" fill="#ff8a8a" font-size="22">404</text>
+    <path d="M1285 352 L1285 410" stroke="#ff9a40" stroke-width="5"/>
+    <path d="M1270 398 L1285 420 L1300 398" fill="none" stroke="#ff7a3d" stroke-width="5"/>
+    <rect x="1110" y="430" width="350" height="78" rx="12" fill="#3a2a14" stroke="url(#glow)" stroke-width="3"/>
+    <text x="1135" y="480" fill="#ffb648">global</text>
+    <text x="1365" y="480" fill="#7ee2a8" font-size="22">200</text>
+    <rect x="1110" y="540" width="160" height="60" rx="10" fill="#2a2f3f"/><text x="1150" y="580" fill="#8b93a7" font-size="22">us</text>
+    <rect x="1300" y="540" width="160" height="60" rx="10" fill="#2a2f3f"/><text x="1345" y="580" fill="#8b93a7" font-size="22">eu</text>
+  </g>
+  <text x="110" y="830" font-family="DejaVu Sans, sans-serif" font-size="34" fill="#e6e9f2">vertexAI → agentPlatform</text>
+  <text x="560" y="830" font-family="DejaVu Sans, sans-serif" font-size="26" fill="#8b93a7">Firebase AI Logic SDK migration</text>
+</svg>
