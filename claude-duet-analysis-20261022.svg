@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a1714"/><stop offset="1" stop-color="#2b2420"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8a27c"/><stop offset="1" stop-color="#d9774f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <!-- phone -->
+  <rect x="150" y="70" width="430" height="770" rx="46" fill="#121010" stroke="#4a3f38" stroke-width="4"/>
+  <rect x="172" y="96" width="386" height="718" rx="30" fill="#211c19"/>
+  <rect x="300" y="108" width="130" height="22" rx="11" fill="#121010"/>
+  <text x="200" y="175" font-family="DejaVu Sans, sans-serif" font-size="24" fill="#f3e6dc" font-weight="bold">Duet</text>
+  <text x="200" y="203" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#9c8b80">main thread</text>
+  <!-- morning brief bubble -->
+  <rect x="196" y="230" width="320" height="170" rx="18" fill="#3a302a"/>
+  <text x="216" y="264" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#e8a27c" font-weight="bold">07:30  Morning brief</text>
+  <rect x="216" y="284" width="250" height="10" rx="5" fill="#8a7a70"/>
+  <rect x="216" y="306" width="200" height="10" rx="5" fill="#8a7a70"/>
+  <rect x="216" y="328" width="270" height="10" rx="5" fill="#8a7a70"/>
+  <text x="216" y="378" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#c9b8ad">Gmail · Calendar · Stripe</text>
+  <!-- user reply -->
+  <rect x="290" y="420" width="240" height="64" rx="18" fill="url(#warm)"/>
+  <rect x="312" y="440" width="190" height="10" rx="5" fill="#fff3ea"/>
+  <rect x="312" y="460" width="130" height="10" rx="5" fill="#fff3ea"/>
+  <!-- approval card -->
+  <rect x="196" y="508" width="334" height="222" rx="18" fill="#2e2622" stroke="#e8a27c" stroke-width="3"/>
+  <text x="218" y="546" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#f3e6dc" font-weight="bold">Approval needed</text>
+  <text x="218" y="578" font-family="DejaVu Sans, sans-serif" font-size="16" fill="#c9b8ad">Send 3 invoice reminders</text>
+  <rect x="218" y="596" width="270" height="10" rx="5" fill="#6d5e55"/>
+  <rect x="218" y="616" width="220" height="10" rx="5" fill="#6d5e55"/>
+  <rect x="218" y="660" width="132" height="46" rx="12" fill="url(#warm)"/>
+  <text x="250" y="690" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#1a1714" font-weight="bold">Approve</text>
+  <rect x="364" y="660" width="140" height="46" rx="12" fill="none" stroke="#8a7a70" stroke-width="2"/>
+  <text x="404" y="690" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#c9b8ad">Edit</text>
+  <!-- dashed link -->
+  <path d="M600 450 C 680 450, 700 360, 780 360" fill="none" stroke="#e8a27c" stroke-width="4" stroke-dasharray="12 10"/>
+  <circle cx="600" cy="450" r="8" fill="#e8a27c"/>
+  <!-- cloud vm -->
+  <rect x="790" y="150" width="680" height="470" rx="22" fill="#231e1b" stroke="#4a3f38" stroke-width="3"/>
+  <text x="820" y="200" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#9c8b80">cloud VM · runs while your phone is off</text>
+  <rect x="820" y="225" width="620" height="360" rx="14" fill="#2e2622"/>
+  <rect x="820" y="225" width="620" height="44" rx="14" fill="#3a302a"/>
+  <rect x="820" y="255" width="620" height="14" fill="#3a302a"/>
+  <circle cx="848" cy="247" r="7" fill="#d9774f"/><circle cx="872" cy="247" r="7" fill="#c9a24f"/><circle cx="896" cy="247" r="7" fill="#7fae7a"/>
+  <rect x="925" y="236" width="380" height="22" rx="11" fill="#211c19"/>
+  <!-- dashboard inside browser -->
+  <rect x="850" y="295" width="270" height="130" rx="10" fill="#211c19"/>
+  <polyline points="866,400 910,370 950,385 995,340 1040,355 1095,315" fill="none" stroke="#e8a27c" stroke-width="5"/>
+  <rect x="1140" y="295" width="270" height="130" rx="10" fill="#211c19"/>
+  <rect x="1165" y="380" width="30" height="30" fill="#8a7a70"/><rect x="1210" y="350" width="30" height="60" fill="#c9a24f"/><rect x="1255" y="330" width="30" height="80" fill="#e8a27c"/><rect x="1300" y="360" width="30" height="50" fill="#8a7a70"/><rect x="1345" y="320" width="30" height="90" fill="#d9774f"/>
+  <rect x="850" y="445" width="560" height="115" rx="10" fill="#211c19"/>
+  <rect x="872" y="470" width="300" height="12" rx="6" fill="#6d5e55"/>
+  <rect x="872" y="496" width="420" height="12" rx="6" fill="#6d5e55"/>
+  <rect x="872" y="522" width="360" height="12" rx="6" fill="#6d5e55"/>
+  <!-- check interval clock -->
+  <circle cx="1130" cy="730" r="62" fill="none" stroke="#e8a27c" stroke-width="5"/>
+  <line x1="1130" y1="730" x2="1130" y2="688" stroke="#f3e6dc" stroke-width="5"/>
+  <line x1="1130" y1="730" x2="1162" y2="748" stroke="#f3e6dc" stroke-width="5"/>
+  <text x="1215" y="722" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#f3e6dc">checks every few hours</text>
+  <text x="1215" y="756" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#9c8b80">background work counts toward plan limits</text>
+</svg>
