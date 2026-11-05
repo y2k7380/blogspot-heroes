@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1a1c"/><stop offset="1" stop-color="#14202e"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#g)"/>
+<rect x="56" y="70" width="760" height="560" rx="16" fill="#152226" stroke="#2c4a50" stroke-width="2"/>
+<circle cx="86" cy="98" r="8" fill="#ec5f5f"/>
+<circle cx="112" cy="98" r="8" fill="#f0b94e"/>
+<circle cx="138" cy="98" r="8" fill="#5fc46f"/>
+<text xml:space="preserve" x="180" y="105" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8aa3a8" font-weight="normal">$ litert-lm serve   # 0.19.0, gemma-4-E2B-it, CPU</text>
+<text xml:space="preserve" x="84" y="150" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#e6eef0" font-weight="normal">POST /v1/chat/completions  turn 1</text>
+<text xml:space="preserve" x="84" y="187" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#7fc8e8" font-weight="normal">  cache miss (1 context message)</text>
+<text xml:space="preserve" x="84" y="224" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#c3cbe0" font-weight="normal">  prompt 952 tok  cached 0     3.22 s</text>
+<text xml:space="preserve" x="84" y="298" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#e6eef0" font-weight="normal">POST /v1/chat/completions  turn 2</text>
+<text xml:space="preserve" x="84" y="335" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#5fd38a" font-weight="normal">  cache hit (3 context messages)</text>
+<text xml:space="preserve" x="84" y="372" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#5fd38a" font-weight="normal">  prompt 994 tok  cached 980   0.81 s</text>
+<text xml:space="preserve" x="84" y="446" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#e6eef0" font-weight="normal">turn 3: assistant text edited</text>
+<text xml:space="preserve" x="84" y="483" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#ffb558" font-weight="normal">  cache miss -&gt; full re-prefill  4.03 s</text>
+<text xml:space="preserve" x="84" y="520" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#e6eef0" font-weight="normal">turn 4: temperature 0 -&gt; 0.2</text>
+<text xml:space="preserve" x="84" y="557" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#ffb558" font-weight="normal">  cache miss                     3.19 s</text>
+<rect x="846" y="70" width="378" height="270" rx="16" fill="#152226" stroke="#2c4a50" stroke-width="2"/>
+<text xml:space="preserve" x="870" y="112" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#e6eef0" font-weight="bold">turn 2, same history</text>
+<text xml:space="preserve" x="870" y="160" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#c3cbe0" font-weight="normal">0.18.1</text>
+<rect x="960" y="143" width="226" height="24" rx="4" fill="#ffb558"/>
+<text xml:space="preserve" x="870" y="196" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ffb558" font-weight="normal">       2.77 s</text>
+<text xml:space="preserve" x="870" y="248" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#c3cbe0" font-weight="normal">0.19.0</text>
+<rect x="960" y="231" width="66" height="24" rx="4" fill="#5fd38a"/>
+<text xml:space="preserve" x="870" y="284" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#5fd38a" font-weight="normal">       0.81 s</text>
+<rect x="846" y="364" width="378" height="266" rx="16" fill="#152226" stroke="#2c4a50" stroke-width="2"/>
+<text xml:space="preserve" x="870" y="406" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#e6eef0" font-weight="bold">cache key</text>
+<text xml:space="preserve" x="870" y="446" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c3cbe0" font-weight="normal">history + tools</text>
+<text xml:space="preserve" x="870" y="478" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c3cbe0" font-weight="normal">+ sampler + thinking</text>
+<text xml:space="preserve" x="870" y="510" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c3cbe0" font-weight="normal">+ constrained decoding</text>
+<text xml:space="preserve" x="870" y="556" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ffb558" font-weight="normal">one slot per server</text>
+<text xml:space="preserve" x="870" y="592" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ec8f8f" font-weight="normal">max_tokens ignored</text>
+<text xml:space="preserve" x="56" y="680" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7d9599" font-weight="normal">LiteRT-LM v0.19.0 (released 2026-11-03 KST) · OpenAI-compatible serve · Linux x86_64, 8 vCPU</text>
+</svg>
