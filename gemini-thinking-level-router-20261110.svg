@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1a1e"/><stop offset="1" stop-color="#1a1d2e"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#e6eef0" font-weight="bold">agent task → router → cheapest model that still passes</text>
+<rect x="48" y="96" width="300" height="250" rx="14" fill="#161d2c" stroke="#33405a" stroke-width="2"/>
+<text xml:space="preserve" x="68" y="130" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#8fb4ff" font-weight="bold">agent task</text>
+<text xml:space="preserve" x="68" y="168" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">port from k8s YAML</text>
+<text xml:space="preserve" x="68" y="197" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">path from git diff</text>
+<text xml:space="preserve" x="68" y="226" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">line in traceback</text>
+<text xml:space="preserve" x="68" y="255" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">f(x=[]) 3rd call</text>
+<text xml:space="preserve" x="68" y="284" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">{1:'a',True:'b',1.0:'c'}</text>
+<text xml:space="preserve" x="68" y="313" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">C: i++ || i++</text>
+<path d="M520 120 L640 220 L520 320 L400 220 Z" fill="#1d2a24" stroke="#5fd38a" stroke-width="2.5"/>
+<text xml:space="preserve" x="458" y="212" font-family="DejaVu Sans, sans-serif" font-size="19" fill="#9eecc0" font-weight="bold">router</text>
+<text xml:space="preserve" x="440" y="240" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3e8d3" font-weight="normal">one yes/no Q</text>
+<path d="M350 220 h44 m-8 -7 l8 7 l-8 7" stroke="#8fb4ff" stroke-width="2.5" fill="none"/>
+<rect x="760" y="96" width="472" height="110" rx="14" fill="#142026" stroke="#2f5a4a" stroke-width="2"/>
+<text xml:space="preserve" x="784" y="134" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#9eecc0" font-weight="bold">simple → gemini-3.5-flash-lite</text>
+<text xml:space="preserve" x="784" y="170" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c3e8d3" font-weight="normal">default thinking: minimal (docs table)</text>
+<rect x="760" y="236" width="472" height="110" rx="14" fill="#221a14" stroke="#6a4a2a" stroke-width="2"/>
+<text xml:space="preserve" x="784" y="274" font-family="DejaVu Sans Mono, monospace" font-size="19" fill="#ffc98a" font-weight="bold">complex → gemini-3.8-flash</text>
+<text xml:space="preserve" x="784" y="310" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f0d6b5" font-weight="normal">thinking_level: "LOW"</text>
+<path d="M640 200 C700 170 720 151 752 151 m-9 -6 l9 6 l-9 6" stroke="#5fd38a" stroke-width="2.5" fill="none"/>
+<path d="M640 240 C700 270 720 291 752 291 m-9 -6 l9 6 l-9 6" stroke="#ffb558" stroke-width="2.5" fill="none"/>
+<rect x="48" y="378" width="1184" height="286" rx="16" fill="#11161d" stroke="#33405a" stroke-width="2"/>
+<circle cx="76" cy="408" r="7" fill="#ec5f5f"/>
+<circle cx="102" cy="408" r="7" fill="#f0b94e"/>
+<circle cx="128" cy="408" r="7" fill="#5fc46f"/>
+<text xml:space="preserve" x="170" y="413" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8aa3a8" font-weight="normal">$ python3 router.py   # keyword regex + &gt;35 words, no API call</text>
+<text xml:space="preserve" x="72" y="448" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ffb558" font-weight="normal">want=simple  got=complex words= 37</text>
+<text xml:space="preserve" x="72" y="476" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#5fd38a" font-weight="normal">want=simple  got=simple  words= 26</text>
+<text xml:space="preserve" x="72" y="504" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ffb558" font-weight="normal">want=simple  got=complex words= 40</text>
+<text xml:space="preserve" x="72" y="532" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ff8a8a" font-weight="normal">want=complex got=simple  words= 13</text>
+<text xml:space="preserve" x="72" y="560" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ff8a8a" font-weight="normal">want=complex got=simple  words= 12</text>
+<text xml:space="preserve" x="72" y="588" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ff8a8a" font-weight="normal">want=complex got=simple  words= 13</text>
+<text xml:space="preserve" x="72" y="630" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#ff8a8a" font-weight="bold">agree 1/6</text>
+<text xml:space="preserve" x="700" y="470" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ffb0b0" font-weight="bold">maxOutputTokens=300</text>
+<text xml:space="preserve" x="700" y="500" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#e8c3c3" font-weight="normal">= ceiling, not a thinking dial</text>
+<text xml:space="preserve" x="700" y="548" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#9eecc0" font-weight="bold">measure: cost per successful task</text>
+<text xml:space="preserve" x="700" y="578" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c3e8d3" font-weight="normal">total spend / tasks that pass</text>
+<text xml:space="preserve" x="48" y="698" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#7d8aa9" font-weight="normal">Google Developers Blog 2026-11-03 · Gemini API thinking docs · google-genai 3.0.0 ThinkingConfig</text>
+</svg>
