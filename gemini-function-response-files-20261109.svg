@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101522"/><stop offset="1" stop-color="#1b1830"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="64" font-family="DejaVu Sans, sans-serif" font-size="22" fill="#e6eef0" font-weight="bold">agent loop · functionCall → your tool → functionResponse.parts</text>
+<rect x="48" y="88" width="384" height="84" rx="12" fill="#161d2c" stroke="#33405a" stroke-width="2"/>
+<text xml:space="preserve" x="68" y="122" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#8fb4ff" font-weight="bold">model</text>
+<text xml:space="preserve" x="68" y="154" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3cbe0" font-weight="normal">functionCall view_file</text>
+<rect x="448" y="88" width="384" height="84" rx="12" fill="#161d2c" stroke="#33405a" stroke-width="2"/>
+<text xml:space="preserve" x="468" y="122" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#8fb4ff" font-weight="bold">your tool</text>
+<text xml:space="preserve" x="468" y="154" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3cbe0" font-weight="normal">q3.xlsx + clip.mp4</text>
+<rect x="848" y="88" width="384" height="84" rx="12" fill="#161d2c" stroke="#33405a" stroke-width="2"/>
+<text xml:space="preserve" x="868" y="122" font-family="DejaVu Sans, sans-serif" font-size="18" fill="#8fb4ff" font-weight="bold">model</text>
+<text xml:space="preserve" x="868" y="154" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3cbe0" font-weight="normal">reads files next turn</text>
+<path d="M432 130 l14 0 m-6 -6 l6 6 l-6 6" stroke="#8fb4ff" stroke-width="2.5" fill="none"/>
+<path d="M832 130 l14 0 m-6 -6 l6 6 l-6 6" stroke="#8fb4ff" stroke-width="2.5" fill="none"/>
+<rect x="48" y="200" width="584" height="250" rx="16" fill="#1f1620" stroke="#5a3340" stroke-width="2"/>
+<text xml:space="preserve" x="72" y="240" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#ffb0b0" font-weight="bold">inline base64 (inlineData)</text>
+<rect x="72" y="262" width="536" height="34" rx="6" fill="#ec6f6f"/>
+<text xml:space="preserve" x="84" y="285" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#1f1620" font-weight="bold">647,963 bytes JSON</text>
+<text xml:space="preserve" x="72" y="330" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#e8c3c3" font-weight="normal">20 s mp4 480,216 B  →  base64 ×1.333</text>
+<text xml:space="preserve" x="72" y="362" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#e8c3c3" font-weight="normal">counts toward 100 MB request limit</text>
+<text xml:space="preserve" x="72" y="394" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#e8c3c3" font-weight="normal">PDF limit 50 MB</text>
+<rect x="648" y="200" width="584" height="250" rx="16" fill="#142026" stroke="#2f5a4a" stroke-width="2"/>
+<text xml:space="preserve" x="672" y="240" font-family="DejaVu Sans, sans-serif" font-size="20" fill="#9eecc0" font-weight="bold">Files API URI (fileData)</text>
+<rect x="672" y="262" width="12" height="34" rx="3" fill="#5fd38a"/>
+<text xml:space="preserve" x="696" y="285" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#9eecc0" font-weight="bold">473 bytes JSON</text>
+<text xml:space="preserve" x="672" y="330" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3e8d3" font-weight="normal">mediaProcessing: AGENTIC (video)</text>
+<text xml:space="preserve" x="672" y="362" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3e8d3" font-weight="normal">displayName on inlineData / fileData</text>
+<text xml:space="preserve" x="672" y="394" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3e8d3" font-weight="normal">files expire after 48 h · 2 GB per file</text>
+<rect x="48" y="474" width="1184" height="190" rx="16" fill="#121820" stroke="#33405a" stroke-width="2"/>
+<circle cx="76" cy="504" r="7" fill="#ec5f5f"/>
+<circle cx="102" cy="504" r="7" fill="#f0b94e"/>
+<circle cx="128" cy="504" r="7" fill="#5fc46f"/>
+<text xml:space="preserve" x="170" y="509" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8aa3a8" font-weight="normal">openpyxl data_only=True · q3.xlsx</text>
+<text xml:space="preserve" x="72" y="546" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ffb558" font-weight="normal">('p1', 3, 1000, None)     # formula saved, no cached value</text>
+<text xml:space="preserve" x="72" y="580" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#5fd38a" font-weight="normal">soffice --headless --convert-to xlsx  →  ('p1', 3, 1000, 3000)</text>
+<text xml:space="preserve" x="72" y="618" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3cbe0" font-weight="normal">XLSX: first sheet → CSV values only · ODS: first sheet values + formulas</text>
+<text xml:space="preserve" x="72" y="648" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c3cbe0" font-weight="normal">Gemini 3 series · unsupported MIME → 400 INVALID_ARGUMENT</text>
+<text xml:space="preserve" x="48" y="698" font-family="DejaVu Sans, sans-serif" font-size="15" fill="#7d8aa9" font-weight="normal">Gemini API changelog 2026-11-05 · multimodal function responses · google-genai 3.0.0</text>
+</svg>
