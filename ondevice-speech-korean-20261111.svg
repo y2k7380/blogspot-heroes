@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101820"/><stop offset="1" stop-color="#1b1a2c"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="22" fill="#e6eef0" font-weight="bold">on-device voice: mic → ASR → Gemma 4 / Gemini Nano → TTS → speaker</text>
+<rect x="56" y="96" width="210" height="380" rx="30" fill="#151c28" stroke="#3a4a66" stroke-width="3"/>
+<rect x="74" y="128" width="174" height="300" rx="10" fill="#0e131b"/>
+<circle cx="161" cy="452" r="12" fill="none" stroke="#3a4a66" stroke-width="2"/>
+<rect x="88" y="270.0" width="8" height="20" rx="3" fill="#5fd38a"/>
+<rect x="101" y="257.0" width="8" height="46" rx="3" fill="#5fd38a"/>
+<rect x="114" y="245.0" width="8" height="70" rx="3" fill="#5fd38a"/>
+<rect x="127" y="261.0" width="8" height="38" rx="3" fill="#5fd38a"/>
+<rect x="140" y="235.0" width="8" height="90" rx="3" fill="#5fd38a"/>
+<rect x="153" y="251.0" width="8" height="58" rx="3" fill="#5fd38a"/>
+<rect x="166" y="265.0" width="8" height="30" rx="3" fill="#5fd38a"/>
+<rect x="179" y="242.0" width="8" height="76" rx="3" fill="#5fd38a"/>
+<rect x="192" y="258.0" width="8" height="44" rx="3" fill="#5fd38a"/>
+<rect x="205" y="268.0" width="8" height="24" rx="3" fill="#5fd38a"/>
+<rect x="218" y="249.0" width="8" height="62" rx="3" fill="#5fd38a"/>
+<rect x="231" y="262.0" width="8" height="36" rx="3" fill="#5fd38a"/>
+<text xml:space="preserve" x="92" y="170" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="16" fill="#9eecc0" font-weight="bold">offline</text>
+<text xml:space="preserve" x="92" y="380" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ffc98a" font-weight="bold">ko-KR ?</text>
+<rect x="300" y="120" width="230" height="110" rx="14" fill="#16202c" stroke="#33506a" stroke-width="2"/>
+<text xml:space="preserve" x="320" y="160" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="24" fill="#8fb4ff" font-weight="bold">ASR</text>
+<text xml:space="preserve" x="320" y="200" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">ML Kit Advanced ko-KR</text>
+<rect x="560" y="120" width="230" height="110" rx="14" fill="#16202c" stroke="#33506a" stroke-width="2"/>
+<text xml:space="preserve" x="580" y="160" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="24" fill="#8fb4ff" font-weight="bold">SLM</text>
+<text xml:space="preserve" x="580" y="200" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">Gemma 4 / Nano</text>
+<rect x="820" y="120" width="230" height="110" rx="14" fill="#16202c" stroke="#33506a" stroke-width="2"/>
+<text xml:space="preserve" x="840" y="160" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="24" fill="#8fb4ff" font-weight="bold">TTS</text>
+<text xml:space="preserve" x="840" y="200" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c3cbe0" font-weight="normal">ML Kit ko-KR voices</text>
+<path d="M534 175 h22 m-8 -7 l8 7 l-8 7" stroke="#8fb4ff" stroke-width="2.5" fill="none"/>
+<path d="M794 175 h22 m-8 -7 l8 7 l-8 7" stroke="#8fb4ff" stroke-width="2.5" fill="none"/>
+<text xml:space="preserve" x="300" y="268" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="17" fill="#e6eef0" font-weight="bold">cross-platform .litertlm bundles (LiteRT-LM omni)</text>
+<rect x="300" y="290" width="932" height="380" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="322" y="326" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ curl -s huggingface.co/api/models/litert-community/... | ko?</text>
+<text xml:space="preserve" x="322" y="368" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">parakeet-tdt-0.6b-v3</text>
+<text xml:space="preserve" x="700" y="368" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ff7b72" font-weight="bold">ko=False</text>
+<text xml:space="preserve" x="880" y="368" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">614.6MB</text>
+<text xml:space="preserve" x="322" y="408" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">pocket-tts (en)</text>
+<text xml:space="preserve" x="700" y="408" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ff7b72" font-weight="bold">ko=False</text>
+<text xml:space="preserve" x="880" y="408" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">162.8MB</text>
+<text xml:space="preserve" x="322" y="448" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">phonon-31m-en</text>
+<text xml:space="preserve" x="700" y="448" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ff7b72" font-weight="bold">ko=False</text>
+<text xml:space="preserve" x="880" y="448" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">87.2MB</text>
+<text xml:space="preserve" x="322" y="488" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">Kokoro-82M</text>
+<text xml:space="preserve" x="700" y="488" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ff7b72" font-weight="bold">ko=False</text>
+<text xml:space="preserve" x="880" y="488" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">294.8MB</text>
+<text xml:space="preserve" x="322" y="528" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">whisper-tiny</text>
+<text xml:space="preserve" x="700" y="528" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#7ee787" font-weight="bold">ko=True </text>
+<text xml:space="preserve" x="880" y="528" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">41.8MB</text>
+<text xml:space="preserve" x="322" y="568" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">Qwen3-ASR-0.6B</text>
+<text xml:space="preserve" x="700" y="568" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#7ee787" font-weight="bold">ko=True </text>
+<text xml:space="preserve" x="880" y="568" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">959.6MB</text>
+<text xml:space="preserve" x="322" y="608" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal">Qwen3-TTS int8_v2</text>
+<text xml:space="preserve" x="700" y="608" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#7ee787" font-weight="bold">ko=True </text>
+<text xml:space="preserve" x="880" y="608" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#d2a8ff" font-weight="normal">2444.1MB</text>
+<text xml:space="preserve" x="56" y="520" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">2026-11-11</text>
+<text xml:space="preserve" x="56" y="548" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">HF language</text>
+<text xml:space="preserve" x="56" y="572" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">tags, checked</text>
+</svg>
