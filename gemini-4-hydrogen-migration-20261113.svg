@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0e1a1f"/><stop offset="1" stop-color="#1a1f2e"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="22" fill="#e6eef0" font-weight="bold">gemini-3.8-flash  ->  gemini-4-hydrogen   ·   $1.50 / $7.50 per 1M</text>
+<text xml:space="preserve" x="48" y="112" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#8fb4ff" font-weight="bold">thinking_level</text>
+<text xml:space="preserve" x="48" y="156" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#e6eef0" font-weight="bold">minimal</text>
+<rect x="170" y="136" width="420" height="28" rx="6" fill="#0d1117" stroke="#30363d"/>
+<rect x="170" y="136" width="34" height="28" rx="6" fill="#ff7b72" opacity="0.4"/>
+<text xml:space="preserve" x="600" y="156" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="bold">rejected</text>
+<text xml:space="preserve" x="48" y="202" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#e6eef0" font-weight="bold">low</text>
+<rect x="170" y="182" width="420" height="28" rx="6" fill="#0d1117" stroke="#30363d"/>
+<rect x="170" y="182" width="105" height="28" rx="6" fill="#79c0ff" opacity="0.4"/>
+<text xml:space="preserve" x="48" y="248" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#e6eef0" font-weight="bold">medium</text>
+<rect x="170" y="228" width="420" height="28" rx="6" fill="#0d1117" stroke="#30363d"/>
+<rect x="170" y="228" width="189" height="28" rx="6" fill="#79c0ff" opacity="0.4"/>
+<text xml:space="preserve" x="48" y="294" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#e6eef0" font-weight="bold">high</text>
+<rect x="170" y="274" width="420" height="28" rx="6" fill="#0d1117" stroke="#30363d"/>
+<rect x="170" y="274" width="294" height="28" rx="6" fill="#7ee787" opacity="0.4"/>
+<text xml:space="preserve" x="600" y="294" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7ee787" font-weight="bold">default</text>
+<text xml:space="preserve" x="48" y="340" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#e6eef0" font-weight="bold">xhigh</text>
+<rect x="170" y="320" width="420" height="28" rx="6" fill="#0d1117" stroke="#30363d"/>
+<rect x="170" y="320" width="420" height="28" rx="6" fill="#d2a8ff" opacity="0.4"/>
+<text xml:space="preserve" x="600" y="340" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#d2a8ff" font-weight="bold">new</text>
+<rect x="700" y="96" width="532" height="250" rx="16" fill="#151d29" stroke="#3a4a66" stroke-width="2"/>
+<text xml:space="preserve" x="722" y="132" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="18" fill="#ffc98a" font-weight="bold">remove before switching</text>
+<text xml:space="preserve" x="722" y="172" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">- cached_content  (no explicit caching)</text>
+<text xml:space="preserve" x="722" y="206" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">- temperature / top_p / top_k  (ignored)</text>
+<text xml:space="preserve" x="722" y="240" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">- max_output_tokens: 8192  (raise to 65536)</text>
+<text xml:space="preserve" x="722" y="274" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">- thinking_level: minimal  (error)</text>
+<text xml:space="preserve" x="722" y="308" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">- raw-text JSON tool calls  (MALFORMED)</text>
+<rect x="48" y="400" width="1184" height="280" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="72" y="446" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#8b949e" font-weight="normal">$ pip install google-genai==3.2.0</text>
+<text xml:space="preserve" x="72" y="484" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#ffc98a" font-weight="normal">UserWarning: xhigh is not a valid ThinkingLevel</text>
+<text xml:space="preserve" x="72" y="522" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#c9d1d9" font-weight="normal"> -> {'thinking_config': {'thinking_level': 'xhigh'}}   # passes through as-is</text>
+<text xml:space="preserve" x="72" y="560" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#8b949e" font-weight="normal">$ pip install -U google-genai   # 3.3.0, 2026-11-13</text>
+<text xml:space="preserve" x="72" y="598" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#7ee787" font-weight="normal"> -> {'thinking_config': {'thinking_level': 'XHIGH'}}   # enum added</text>
+<text xml:space="preserve" x="72" y="636" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#79c0ff" font-weight="normal"> -> {'temperature': 0.2, ...}   # SDK still sends it; server ignores per docs</text>
+</svg>
