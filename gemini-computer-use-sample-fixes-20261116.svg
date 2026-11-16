@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101820"/><stop offset="1" stop-color="#1c1a2b"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="21" fill="#e6eef0" font-weight="bold">computer_use loop  ·  screenshot -> function_call -> your code -> function_result</text>
+<rect x="48" y="96" width="600" height="300" rx="14" fill="#f4f6fa" stroke="#3a4a66" stroke-width="2"/>
+<rect x="48" y="96" width="600" height="38" rx="14" fill="#d9dee8"/>
+<circle cx="74" cy="115" r="7" fill="#ff7b72"/>
+<circle cx="96" cy="115" r="7" fill="#f2cc60"/>
+<circle cx="118" cy="115" r="7" fill="#7ee787"/>
+<rect x="150" y="104" width="470" height="22" rx="11" fill="#fff"/>
+<text xml:space="preserve" x="164" y="121" font-family="DejaVu Sans Mono, monospace" font-size="13" fill="#57606a" font-weight="normal">viewport 1440 x 900   ·   coords 0-1000</text>
+<rect x="100" y="190" width="500" height="48" rx="8" fill="#fff" stroke="#8b949e" stroke-width="2"/>
+<text xml:space="preserve" x="116" y="222" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#0969da" font-weight="bold">Gemini API</text>
+<text xml:space="preserve" x="250" y="222" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#cf222e" font-weight="normal">ld search words</text>
+<circle cx="122" cy="214" r="16" fill="none" stroke="#bf8700" stroke-width="3"/>
+<text xml:space="preserve" x="100" y="272" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#57606a" font-weight="normal">click (424,128) -> (610,115) px</text>
+<text xml:space="preserve" x="100" y="300" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#cf222e" font-weight="bold">Meta+A on Linux = no select-all</text>
+<text xml:space="preserve" x="100" y="328" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#1a7f37" font-weight="bold">ControlOrMeta+A  -> 'Gemini API'</text>
+<rect x="690" y="96" width="542" height="300" rx="14" fill="#151d29" stroke="#3a4a66" stroke-width="2"/>
+<text xml:space="preserve" x="712" y="132" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="18" fill="#ffc98a" font-weight="bold">doc sample execute_function_calls()</text>
+<text xml:space="preserve" x="712" y="172" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c9d1d9" font-weight="normal">click / type / navigate</text>
+<rect x="1000" y="152" width="210" height="28" rx="6" fill="#7ee787" opacity="0.22"/>
+<text xml:space="preserve" x="1012" y="172" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7ee787" font-weight="bold">executed</text>
+<text xml:space="preserve" x="712" y="214" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c9d1d9" font-weight="normal">triple_click</text>
+<rect x="1000" y="194" width="210" height="28" rx="6" fill="#ff7b72" opacity="0.22"/>
+<text xml:space="preserve" x="1012" y="214" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="bold">silent no-op</text>
+<text xml:space="preserve" x="712" y="256" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c9d1d9" font-weight="normal">long_press</text>
+<rect x="1000" y="236" width="210" height="28" rx="6" fill="#ff7b72" opacity="0.22"/>
+<text xml:space="preserve" x="1012" y="256" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="bold">silent no-op</text>
+<text xml:space="preserve" x="712" y="298" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c9d1d9" font-weight="normal">scroll / press_key</text>
+<rect x="1000" y="278" width="210" height="28" rx="6" fill="#f2cc60" opacity="0.22"/>
+<text xml:space="preserve" x="1012" y="298" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="bold">warning, {}</text>
+<text xml:space="preserve" x="712" y="340" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c9d1d9" font-weight="normal">hotkey / drag_and_drop</text>
+<rect x="1000" y="320" width="210" height="28" rx="6" fill="#f2cc60" opacity="0.22"/>
+<text xml:space="preserve" x="1012" y="340" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="bold">warning, {}</text>
+<rect x="48" y="430" width="1184" height="250" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="72" y="474" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#8b949e" font-weight="normal">$ python t5.py   # Playwright 1.65.2, headless Chromium 159, Linux</text>
+<text xml:space="preserve" x="72" y="510" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ff7b72" font-weight="normal">  -> Executing: triple_click   result={}  page clicks 0->0</text>
+<text xml:space="preserve" x="72" y="546" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#f2cc60" font-weight="normal">  -> Executing: scroll   Warning: Custom or unhandled function scroll</text>
+<text xml:space="preserve" x="72" y="582" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#ff7b72" font-weight="normal">final input value: 'Gemini APIld search words'</text>
+<text xml:space="preserve" x="72" y="618" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#79c0ff" font-weight="normal">tools=[{'type':'computer_use','environment':'browser','disabled_safety_policies':['data_modifcation']}]</text>
+<text xml:space="preserve" x="72" y="654" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#c9d1d9" font-weight="normal">  -> SDK 3.3.0 sends the typo as-is   ·   enable_prompt_injection_detection default: false</text>
+</svg>
