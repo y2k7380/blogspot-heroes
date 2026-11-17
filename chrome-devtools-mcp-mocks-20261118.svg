@@ -42,7 +42,7 @@
 <text xml:space="preserve" x="72" y="462" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ set_logpoints ["js/app.js:4 'label=', label", "js/app.js:5 'label=', label"]</text>
 <text xml:space="preserve" x="72" y="498" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">  - http://127.0.0.1:8765/js/app.js:4:1 [bound]   - js/app.js:5:1 [bound]</text>
 <text xml:space="preserve" x="72" y="534" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ navigate_page reload  ->  list_console_messages</text>
-<text xml:space="preserve" x="72" y="570" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="normal">  msgid=2 [error]  (0 args)        <- line 4 declares const label (not set yet)</text>
+<text xml:space="preserve" x="72" y="570" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="normal">  msgid=2 [error]  (0 args)        # line 4 declares const label (not set yet)</text>
 <text xml:space="preserve" x="72" y="606" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7ee787" font-weight="normal">  msgid=3 [log] line5 label= KRW 12900 (2 args)</text>
 <text xml:space="preserve" x="72" y="642" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="normal">$ set_logpoints ... --no-javascript-evaluation  ->  MCP error -32602: Tool set_logpoints disabled</text>
 </svg>
