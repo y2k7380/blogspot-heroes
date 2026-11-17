@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1722"/><stop offset="1" stop-color="#1b2030"/></linearGradient></defs>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8b949e"/></marker></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="22" fill="#e6eef0" font-weight="bold">chrome-devtools-mcp 1.13.0  ·  mock_network + set_logpoints, headless Chrome 156</text>
+<rect x="48" y="96" width="560" height="290" rx="14" fill="#f4f6fa" stroke="#3a4a66" stroke-width="2"/>
+<rect x="48" y="96" width="560" height="38" rx="14" fill="#d9dee8"/>
+<circle cx="74" cy="115" r="7" fill="#ff7b72"/>
+<circle cx="96" cy="115" r="7" fill="#f2cc60"/>
+<circle cx="118" cy="115" r="7" fill="#7ee787"/>
+<rect x="150" y="104" width="430" height="22" rx="11" fill="#fff"/>
+<text xml:space="preserve" x="164" y="121" font-family="DejaVu Sans Mono, monospace" font-size="13" fill="#57606a" font-weight="normal">http://127.0.0.1:8765/   pageId=2</text>
+<text xml:space="preserve" x="84" y="190" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#57606a" font-weight="normal">before:</text>
+<text xml:space="preserve" x="190" y="190" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#1a7f37" font-weight="bold">KRW 12900 | stock: 3</text>
+<path d="M330 210 L330 240" stroke="#8b949e" stroke-width="3" marker-end="url(#a)"/>
+<text xml:space="preserve" x="345" y="232" font-family="DejaVu Sans Mono, monospace" font-size="13" fill="#0969da" font-weight="normal">mock_network body=/tmp/soldout.json</text>
+<text xml:space="preserve" x="84" y="278" font-family="DejaVu Sans Mono, monospace" font-size="18" fill="#57606a" font-weight="normal">reload:</text>
+<text xml:space="preserve" x="190" y="278" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#cf222e" font-weight="bold">KRW 0 | stock: 0</text>
+<text xml:space="preserve" x="84" y="330" font-family="DejaVu Sans Mono, monospace" font-size="17" fill="#24292f" font-weight="normal">Since configured: 1 hits, 0 errors.</text>
+<text xml:space="preserve" x="84" y="360" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#bf3989" font-weight="normal">upstream 404 -> still "0 errors", page stuck on 'loading'</text>
+<rect x="640" y="96" width="592" height="290" rx="14" fill="#151d29" stroke="#3a4a66" stroke-width="2"/>
+<text xml:space="preserve" x="662" y="132" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="18" fill="#ffc98a" font-weight="bold">what tools/list shows</text>
+<text xml:space="preserve" x="662" y="172" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">1.12.0 (any flags)</text>
+<rect x="938" y="153" width="276" height="26" rx="6" fill="#8b949e" opacity="0.2"/>
+<text xml:space="preserve" x="948" y="172" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#8b949e" font-weight="bold">32 tools, no mock/logpoint</text>
+<text xml:space="preserve" x="662" y="208" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">1.13.0 default</text>
+<rect x="938" y="189" width="276" height="26" rx="6" fill="#7ee787" opacity="0.2"/>
+<text xml:space="preserve" x="948" y="208" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#7ee787" font-weight="bold">33  + set_logpoints</text>
+<text xml:space="preserve" x="662" y="244" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">--categoryNetworkMocks</text>
+<rect x="938" y="225" width="276" height="26" rx="6" fill="#7ee787" opacity="0.2"/>
+<text xml:space="preserve" x="948" y="244" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#7ee787" font-weight="bold">35  + mock_network</text>
+<text xml:space="preserve" x="662" y="280" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">--no-javascript-evaluation</text>
+<rect x="938" y="261" width="276" height="26" rx="6" fill="#f2cc60" opacity="0.2"/>
+<text xml:space="preserve" x="948" y="280" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#f2cc60" font-weight="bold">31  - evaluate/logpoints</text>
+<text xml:space="preserve" x="662" y="316" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">body outside temp dir</text>
+<rect x="938" y="297" width="276" height="26" rx="6" fill="#ff7b72" opacity="0.2"/>
+<text xml:space="preserve" x="948" y="316" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#ff7b72" font-weight="bold">Access denied (roots)</text>
+<text xml:space="preserve" x="662" y="352" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">--blockedUrlPattern raw.git*</text>
+<rect x="938" y="333" width="276" height="26" rx="6" fill="#ff7b72" opacity="0.2"/>
+<text xml:space="preserve" x="948" y="352" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#ff7b72" font-weight="bold">upstream rejected</text>
+<rect x="48" y="420" width="1184" height="262" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="72" y="462" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ set_logpoints ["js/app.js:4 'label=', label", "js/app.js:5 'label=', label"]</text>
+<text xml:space="preserve" x="72" y="498" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">  - http://127.0.0.1:8765/js/app.js:4:1 [bound]   - js/app.js:5:1 [bound]</text>
+<text xml:space="preserve" x="72" y="534" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ navigate_page reload  ->  list_console_messages</text>
+<text xml:space="preserve" x="72" y="570" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="normal">  msgid=2 [error]  (0 args)        <- line 4 declares const label (not set yet)</text>
+<text xml:space="preserve" x="72" y="606" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7ee787" font-weight="normal">  msgid=3 [log] line5 label= KRW 12900 (2 args)</text>
+<text xml:space="preserve" x="72" y="642" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="normal">$ set_logpoints ... --no-javascript-evaluation  ->  MCP error -32602: Tool set_logpoints disabled</text>
+</svg>
