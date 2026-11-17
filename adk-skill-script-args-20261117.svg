@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#1e293b"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<g font-family="DejaVu Sans Mono, monospace">
+<rect x="80" y="120" width="420" height="560" rx="18" fill="#111827" stroke="#334155" stroke-width="3"/>
+<text x="110" y="175" fill="#93c5fd" font-size="30">skills/csv-report/</text>
+<text x="140" y="235" fill="#e2e8f0" font-size="26">SKILL.md</text>
+<text x="140" y="285" fill="#e2e8f0" font-size="26">scripts/</text>
+<text x="180" y="335" fill="#86efac" font-size="26">count.py</text>
+<text x="180" y="385" fill="#86efac" font-size="26">echo.sh</text>
+<text x="180" y="435" fill="#fca5a5" font-size="26">hello.js</text>
+<text x="110" y="520" fill="#64748b" font-size="22">.py .sh .bash only</text>
+<text x="110" y="560" fill="#64748b" font-size="22">cwd = skill dir</text>
+<rect x="580" y="140" width="940" height="190" rx="18" fill="#3f1d1d" stroke="#ef4444" stroke-width="3"/>
+<text x="610" y="195" fill="#fecaca" font-size="26">"command": "python3 count.py; cat ..."</text>
+<line x1="610" y1="185" x2="1180" y2="185" stroke="#ef4444" stroke-width="4"/>
+<text x="610" y="260" fill="#f87171" font-size="30" font-weight="bold">INVALID_ARGUMENTS</text>
+<text x="610" y="300" fill="#fca5a5" font-size="22">free-form shell string rejected</text>
+<rect x="580" y="380" width="940" height="300" rx="18" fill="#0b2a1f" stroke="#22c55e" stroke-width="3"/>
+<text x="610" y="435" fill="#bbf7d0" font-size="24">args {"file": "data.csv"}  short_options {"n": "5"}</text>
+<text x="610" y="480" fill="#bbf7d0" font-size="24">positional_args ["x.csv"]</text>
+<text x="610" y="545" fill="#4ade80" font-size="26">argv: --file data.csv -n 5 -- x.csv</text>
+<text x="610" y="600" fill="#fde68a" font-size="24">bash $1 = "--"   →   if [ "$1" = "--" ]; then shift</text>
+<text x="610" y="645" fill="#fde68a" font-size="24">--verbose False  (string, not bool)</text>
+<path d="M500 400 L575 520" stroke="#64748b" stroke-width="4" fill="none"/>
+<path d="M500 300 L575 235" stroke="#64748b" stroke-width="4" fill="none"/>
+</g>
+<text x="80" y="790" fill="#e2e8f0" font-size="48" font-family="DejaVu Sans, sans-serif" font-weight="bold">ADK 2.14 RunSkillScriptTool</text>
+<text x="80" y="845" fill="#94a3b8" font-size="30" font-family="DejaVu Sans, sans-serif">command → args · short_options · positional_args</text>
+</svg>
