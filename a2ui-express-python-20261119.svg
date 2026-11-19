@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1722"/><stop offset="1" stop-color="#1d1b2e"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="22" fill="#e6eef0" font-weight="bold">a2ui-agent-sdk 0.12.0  ·  A2UI Express -> A2UI 1.0 JSON, BasicCatalog("1.0")</text>
+<rect x="48" y="96" width="520" height="300" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="68" y="128" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="16" fill="#ffc98a" font-weight="bold">card.express (14 lines)</text>
+<text xml:space="preserve" x="68" y="162" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">surface("gallery-notification-permission")</text>
+<text xml:space="preserve" x="68" y="190" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">$/title="Enable notification"</text>
+<text xml:space="preserve" x="68" y="218" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">root=Card(main_column)</text>
+<text xml:space="preserve" x="68" y="246" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">main_column=Column([icon, title,</text>
+<text xml:space="preserve" x="68" y="274" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">    description, actions], _, "center")</text>
+<text xml:space="preserve" x="68" y="302" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">actions=Row([yes_btn, no_btn], "center")</text>
+<text xml:space="preserve" x="68" y="330" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">yes_btn=Button(yes_btn_text, _,</text>
+<text xml:space="preserve" x="68" y="358" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">    Event("accept", {}))</text>
+<rect x="600" y="96" width="300" height="300" rx="14" fill="#f4f6fa" stroke="#3a4a66" stroke-width="2"/>
+<circle cx="750" cy="160" r="24" fill="#1a7f37"/><path d="M738 160 l9 9 l16 -18" stroke="#fff" stroke-width="5" fill="none"/>
+<text xml:space="preserve" x="660" y="222" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="20" fill="#24292f" font-weight="bold">Enable notification</text>
+<text xml:space="preserve" x="626" y="256" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="14" fill="#57606a" font-weight="normal">Get alerts for order status changes</text>
+<rect x="650" y="300" width="90" height="40" rx="20" fill="#0969da"/><rect x="760" y="300" width="90" height="40" rx="20" fill="#d0d7de"/>
+<text xml:space="preserve" x="679" y="326" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="17" fill="#fff" font-weight="bold">Yes</text>
+<text xml:space="preserve" x="793" y="326" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="17" fill="#24292f" font-weight="bold">No</text>
+<text xml:space="preserve" x="640" y="378" font-family="DejaVu Sans Mono, monospace" font-size="14" fill="#57606a" font-weight="normal">createSurface · 10 components</text>
+<rect x="932" y="96" width="300" height="300" rx="14" fill="#151d29" stroke="#3a4a66" stroke-width="2"/>
+<text xml:space="preserve" x="952" y="130" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="15" fill="#ffc98a" font-weight="bold">o200k tokens (ratio only)</text>
+<text xml:space="preserve" x="952" y="170" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">express</text>
+<rect x="952" y="180" width="65" height="22" rx="5" fill="#7ee787"/>
+<text xml:space="preserve" x="1025" y="198" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7ee787" font-weight="bold">137</text>
+<text xml:space="preserve" x="952" y="238" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">json compact</text>
+<rect x="952" y="248" width="126" height="22" rx="5" fill="#f2cc60"/>
+<text xml:space="preserve" x="1086" y="266" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="bold">266</text>
+<text xml:space="preserve" x="952" y="306" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">json pretty</text>
+<rect x="952" y="316" width="230" height="22" rx="5" fill="#ff7b72"/>
+<text xml:space="preserve" x="1190" y="334" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="bold">484</text>
+<text xml:space="preserve" x="952" y="382" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#8b949e" font-weight="normal">prompt: 5,605 vs 10,230</text>
+<rect x="48" y="424" width="1184" height="262" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="72" y="462" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ parser.compile(src with children [..., "actionz"])</text>
+<text xml:space="preserve" x="72" y="494" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="normal">  OK -> 1172 bytes            # dangling child passes the compiler</text>
+<text xml:space="preserve" x="72" y="526" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ parser.compile(src without root=Card(...))</text>
+<text xml:space="preserve" x="72" y="558" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="normal">  OK -> updateComponents + 3x updateDataModel   # no createSurface</text>
+<text xml:space="preserve" x="72" y="590" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ processor.parse_response("<a2ui>...</a2ui>")</text>
+<text xml:space="preserve" x="72" y="622" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="normal">  A2uiIntegrityError: Dangling reference ... 'actionz' in field 'children[3]'</text>
+<text xml:space="preserve" x="72" y="654" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="normal">  A2uiIntegrityError: Surface not found for message: gallery-notification-permission</text>
+</svg>
