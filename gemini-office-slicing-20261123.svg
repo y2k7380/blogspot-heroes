@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101a14"/><stop offset="1" stop-color="#1b2230"/></linearGradient></defs>
+<rect width="1280" height="720" fill="url(#bg)"/>
+<text xml:space="preserve" x="48" y="62" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="21" fill="#e6eef0" font-weight="bold">Gemini API  ·  document "processing": {"type": "static", ...}  (Office slicing, 2026-11-18)</text>
+<rect x="48" y="96" width="560" height="300" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="68" y="128" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="16" fill="#ffc98a" font-weight="bold">model.xlsx  ·  3 sheets</text>
+<rect x="68" y="146" width="124" height="30" rx="6" fill="#30363d"/>
+<text xml:space="preserve" x="80" y="167" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">raw 12,006</text>
+<rect x="202" y="146" width="114" height="30" rx="6" fill="#1f6f43"/>
+<text xml:space="preserve" x="214" y="167" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#ffffff" font-weight="normal">summary 8</text>
+<rect x="326" y="146" width="174" height="30" rx="6" fill="#5a1e1e"/>
+<text xml:space="preserve" x="338" y="167" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#ffb4ac" font-weight="normal">log_dump 60,010</text>
+<rect x="68" y="200" width="520" height="36" fill="#1c2a3a" stroke="#2f4a3a"/>
+<text xml:space="preserve" x="80" y="224" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">metric</text>
+<text xml:space="preserve" x="250" y="224" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">value</text>
+<rect x="68" y="240" width="520" height="36" fill="#16301f" stroke="#2f4a3a"/>
+<text xml:space="preserve" x="80" y="264" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">total_qty</text>
+<text xml:space="preserve" x="250" y="264" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">=SUM(raw!C2:C2001)</text>
+<rect x="68" y="280" width="520" height="36" fill="#16301f" stroke="#2f4a3a"/>
+<text xml:space="preserve" x="80" y="304" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">total_amount</text>
+<text xml:space="preserve" x="250" y="304" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">=SUM(raw!E2:E2001)</text>
+<rect x="68" y="320" width="520" height="36" fill="#16301f" stroke="#2f4a3a"/>
+<text xml:space="preserve" x="80" y="344" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#c9d1d9" font-weight="normal">avg_price</text>
+<text xml:space="preserve" x="250" y="344" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">=AVERAGE(raw!D2:D2001)</text>
+<text xml:space="preserve" x="68" y="380" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="normal">sheet_index: 2   visible_cells: "A1:B4"</text>
+<rect x="640" y="96" width="592" height="300" rx="14" fill="#151d29" stroke="#3a4a66" stroke-width="2"/>
+<text xml:space="preserve" x="662" y="128" font-family="DejaVu Sans, Noto Sans CJK KR, sans-serif" font-size="16" fill="#ffc98a" font-weight="bold">deck.pptx  ·  30 slides  ·  page images</text>
+<rect x="662" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="666" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">1</text>
+<rect x="717" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="721" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">2</text>
+<rect x="772" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="776" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">3</text>
+<rect x="827" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="831" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">4</text>
+<rect x="882" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="886" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">5</text>
+<rect x="937" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="941" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">6</text>
+<rect x="992" y="146" width="48" height="27" rx="3" fill="#f2cc60" stroke="#ffe08a"/>
+<text xml:space="preserve" x="996" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#111" font-weight="normal">7</text>
+<rect x="1047" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1051" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">8</text>
+<rect x="1102" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1106" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">9</text>
+<rect x="1157" y="146" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1161" y="165" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">10</text>
+<rect x="662" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="666" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">11</text>
+<rect x="717" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="721" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">12</text>
+<rect x="772" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="776" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">13</text>
+<rect x="827" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="831" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">14</text>
+<rect x="882" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="886" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">15</text>
+<rect x="937" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="941" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">16</text>
+<rect x="992" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="996" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">17</text>
+<rect x="1047" y="204" width="48" height="27" rx="3" fill="#f2cc60" stroke="#ffe08a"/>
+<text xml:space="preserve" x="1051" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#111" font-weight="normal">18</text>
+<rect x="1102" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1106" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">19</text>
+<rect x="1157" y="204" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1161" y="223" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">20</text>
+<rect x="662" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="666" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">21</text>
+<rect x="717" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="721" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">22</text>
+<rect x="772" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="776" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">23</text>
+<rect x="827" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="831" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">24</text>
+<rect x="882" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="886" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">25</text>
+<rect x="937" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="941" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">26</text>
+<rect x="992" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="996" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">27</text>
+<rect x="1047" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1051" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">28</text>
+<rect x="1102" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1106" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">29</text>
+<rect x="1157" y="262" width="48" height="27" rx="3" fill="#2a3446" stroke="#3a4a66"/>
+<text xml:space="preserve" x="1161" y="281" font-family="DejaVu Sans Mono, monospace" font-size="12" fill="#8b949e" font-weight="normal">30</text>
+<text xml:space="preserve" x="662" y="346" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#ff7b72" font-weight="normal">medium full deck : 30 x 560 = 16,800 tok (estimate)</text>
+<text xml:space="preserve" x="662" y="374" font-family="DejaVu Sans Mono, monospace" font-size="15" fill="#7ee787" font-weight="normal">slide 7 only, high: 1 x 1,120 = 1,120 tok (estimate)</text>
+<rect x="48" y="424" width="1184" height="262" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="72" y="462" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ python3 preflight.py          # local, no API key</text>
+<text xml:space="preserve" x="72" y="494" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#ff7b72" font-weight="normal">  model.xlsx (openpyxl save): 2,003 formulas, without cached value: 2,003   STOP</text>
+<text xml:space="preserve" x="72" y="526" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#7ee787" font-weight="normal">  model.xlsx (soffice re-save): cached values 9893 / 157355200 / 15930.6      OK</text>
+<text xml:space="preserve" x="72" y="558" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#f2cc60" font-weight="normal">  sheet_index 0 / visible_cells 'A1-B4' / layer 'formula'                    STOP</text>
+<text xml:space="preserve" x="72" y="590" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#8b949e" font-weight="normal">$ v361/bin/python probe.py      # mocked HTTP</text>
+<text xml:space="preserve" x="72" y="622" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">  sheet_index_0  sent {"spreadsheet_options": {"sheet_index": 0}}   # no local error</text>
+<text xml:space="preserve" x="72" y="654" font-family="DejaVu Sans Mono, monospace" font-size="16" fill="#c9d1d9" font-weight="normal">  sheet_index_str  3.3.0 sends "2"  ·  3.6.1 sends 2</text>
+</svg>
