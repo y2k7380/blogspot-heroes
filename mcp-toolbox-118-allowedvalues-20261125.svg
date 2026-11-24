@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14121c"/><stop offset="1" stop-color="#0f1d22"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<text xml:space="preserve" x="60" y="74" font-family="Noto Sans CJK KR" font-size="28" fill="#eef2f5" font-weight="bold">MCP Toolbox for Databases  ·  toolbox 1.17.0 → 1.18.0  (2026-11-20)</text>
+<text xml:space="preserve" x="60" y="112" font-family="Noto Sans CJK KR" font-size="22" fill="#9fb3c8" font-weight="normal">allowedValues · excludedValues 정규식이 이제 값 전체와 맞아야 통과</text>
+<rect x="60" y="146" width="610" height="400" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="84" y="184" font-family="Noto Sans CJK KR" font-size="20" fill="#ffc98a" font-weight="bold">tools.yaml  (sqlite-sql)</text>
+<text xml:space="preserve" x="84" y="228" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">kind: tool</text>
+<text xml:space="preserve" x="84" y="254" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">name: read_table</text>
+<text xml:space="preserve" x="84" y="280" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">type: sqlite-sql</text>
+<text xml:space="preserve" x="84" y="306" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">statement: SELECT * FROM {{.tableName}}</text>
+<text xml:space="preserve" x="84" y="332" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">           LIMIT 3</text>
+<text xml:space="preserve" x="84" y="358" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">templateParameters:</text>
+<text xml:space="preserve" x="84" y="384" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">  - name: tableName</text>
+<text xml:space="preserve" x="84" y="410" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal">    type: string</text>
+<text xml:space="preserve" x="84" y="436" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#f2cc60" font-weight="normal">    allowedValues: ["orders"]</text>
+<text xml:space="preserve" x="84" y="462" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#c9d1d9" font-weight="normal"></text>
+<text xml:space="preserve" x="84" y="488" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#8b949e" font-weight="normal">  # 1.17: substring match</text>
+<text xml:space="preserve" x="84" y="514" font-family="Noto Sans Mono CJK KR" font-size="18" fill="#8b949e" font-weight="normal">  # 1.18: \A(?:orders)\z</text>
+<rect x="700" y="146" width="840" height="400" rx="16" fill="#151d29" stroke="#3a4a66" stroke-width="2"/>
+<text xml:space="preserve" x="724" y="184" font-family="Noto Sans CJK KR" font-size="20" fill="#ffc98a" font-weight="bold">같은 입력, 두 버전</text>
+<text xml:space="preserve" x="1180" y="184" font-family="Noto Sans Mono CJK KR" font-size="20" fill="#ff9e9e" font-weight="bold">1.17.0</text>
+<text xml:space="preserve" x="1370" y="184" font-family="Noto Sans Mono CJK KR" font-size="20" fill="#8ee6a8" font-weight="bold">1.18.0</text>
+<rect x="720" y="210" width="800" height="46" rx="8" fill="#18202e"/>
+<text xml:space="preserve" x="736" y="240" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">tableName: orders</text>
+<text xml:space="preserve" x="1180" y="240" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">3 rows</text>
+<text xml:space="preserve" x="1370" y="240" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#7ee787" font-weight="normal">3 rows</text>
+<rect x="720" y="264" width="800" height="46" rx="8" fill="#1b2536"/>
+<text xml:space="preserve" x="736" y="294" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">tableName: orders_archive</text>
+<text xml:space="preserve" x="1180" y="294" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#ff7b72" font-weight="normal">1 row</text>
+<text xml:space="preserve" x="1370" y="294" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#7ee787" font-weight="normal">not allowed</text>
+<rect x="720" y="318" width="800" height="46" rx="8" fill="#18202e"/>
+<text xml:space="preserve" x="736" y="348" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">"users UNION SELECT ... -- orders"</text>
+<text xml:space="preserve" x="1180" y="348" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#ff7b72" font-weight="normal">api_key 노출</text>
+<text xml:space="preserve" x="1370" y="348" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#7ee787" font-weight="normal">not allowed</text>
+<rect x="720" y="372" width="800" height="46" rx="8" fill="#1b2536"/>
+<text xml:space="preserve" x="736" y="402" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">status: internal_review (excl.)</text>
+<text xml:space="preserve" x="1180" y="402" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">excluded</text>
+<text xml:space="preserve" x="1370" y="402" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#f2cc60" font-weight="normal">[] 통과</text>
+<rect x="720" y="426" width="800" height="46" rx="8" fill="#18202e"/>
+<text xml:space="preserve" x="736" y="456" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">col: my\col (double-quotes)</text>
+<text xml:space="preserve" x="1180" y="456" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#ff7b72" font-weight="normal">실행됨</text>
+<text xml:space="preserve" x="1370" y="456" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#7ee787" font-weight="normal">rejected</text>
+<rect x="720" y="480" width="800" height="46" rx="8" fill="#1b2536"/>
+<text xml:space="preserve" x="736" y="510" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">list_tables table_names 주입</text>
+<text xml:space="preserve" x="1180" y="510" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#ff7b72" font-weight="normal">3 tables</text>
+<text xml:space="preserve" x="1370" y="510" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#7ee787" font-weight="normal">[]</text>
+<rect x="60" y="576" width="1480" height="276" rx="16" fill="#0b0f14" stroke="#30363d" stroke-width="2"/>
+<text xml:space="preserve" x="84" y="620" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#8b949e" font-weight="normal">$ sha256sum v1.18.0/toolbox   # ea848baf...db339d  (release table match)</text>
+<text xml:space="preserve" x="84" y="658" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">$ v1.17.0/toolbox invoke --config tools.yaml read_table '{"tableName":"users UNION SELECT 1,email,api_key FROM users -- orders"}'</text>
+<text xml:space="preserve" x="84" y="696" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#ff7b72" font-weight="normal">  [{"id":1,"email":"me@example.com","api_key":"sk-demo-0001"}, ...]   exit 0</text>
+<text xml:space="preserve" x="84" y="734" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#c9d1d9" font-weight="normal">$ v1.18.0/toolbox invoke --config tools.yaml read_table '{...same...}'</text>
+<text xml:space="preserve" x="84" y="772" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#7ee787" font-weight="normal">  Error: invalid parameters: ... is not an allowed value             exit 1</text>
+<text xml:space="preserve" x="84" y="810" font-family="Noto Sans Mono CJK KR" font-size="17" fill="#f2cc60" font-weight="normal">$ v1.18.0/toolbox invoke ... by_status '{"status":"internal_review"}'   →  []   # excludedValues: ["internal.*"] 로 고침</text>
+</svg>
