@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#14171c"/>
+  <rect x="40" y="36" width="1200" height="648" rx="14" fill="#1d2128" stroke="#2f3540" stroke-width="2"/>
+  <rect x="40" y="36" width="1200" height="44" rx="14" fill="#262b34"/>
+  <rect x="40" y="66" width="1200" height="14" fill="#262b34"/>
+  <circle cx="72" cy="58" r="7" fill="#e5534b"/><circle cx="96" cy="58" r="7" fill="#d4a72c"/><circle cx="120" cy="58" r="7" fill="#57ab5a"/>
+  <text x="640" y="64" text-anchor="middle" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="17" fill="#8b949e">litert-lm benchmark gemma4-e2b --backend cpu -p 256 -d 128 --runs 3</text>
+  <g font-family="DejaVu Sans Mono, Menlo, Consolas, monospace">
+    <text x="80" y="130" font-size="22" fill="#768390">$ v019/bin/litert-lm benchmark ...   # 0.19.1</text>
+    <text x="80" y="166" font-size="26" fill="#adbac7">Init time:  <tspan fill="#f69d50">0.6696 s</tspan>   Decode: 25.21 tok/s</text>
+    <text x="80" y="226" font-size="22" fill="#768390">$ v020/bin/litert-lm benchmark ...   # 0.20.0</text>
+    <text x="80" y="262" font-size="26" fill="#adbac7">Init time:  <tspan fill="#6bc46d">0.2787 s</tspan>   Decode: 31.49 tok/s</text>
+    <text x="80" y="330" font-size="20" fill="#8b949e">init time, warm cache (avg of 3 runs)</text>
+    <rect x="80" y="346" width="760" height="34" rx="4" fill="#f69d50"/>
+    <text x="856" y="372" font-size="24" fill="#f69d50">0.19.1  0.67 s</text>
+    <rect x="80" y="392" width="322" height="34" rx="4" fill="#6bc46d"/>
+    <text x="418" y="418" font-size="24" fill="#6bc46d">0.20.0  0.28 s</text>
+    <text x="80" y="476" font-size="20" fill="#8b949e">init time, right after xnnpack cache rebuild</text>
+    <text x="80" y="512" font-size="24" fill="#adbac7">0.19.1  <tspan fill="#f69d50">6.61 ~ 7.13 s</tspan>     0.20.0  <tspan fill="#6bc46d">3.26 ~ 3.55 s</tspan></text>
+    <line x1="80" y1="548" x2="1200" y2="548" stroke="#2f3540" stroke-width="2"/>
+    <text x="80" y="590" font-size="21" fill="#768390">$ SOURCE_DATE_EPOCH=1767225600 litert-lm-builder ... output --path a.litertlm</text>
+    <text x="80" y="626" font-size="21" fill="#adbac7">0.19.1  sha256 3e21f0d4.. != 26e3ec94..</text>
+    <text x="80" y="658" font-size="21" fill="#adbac7">0.20.0  sha256 <tspan fill="#6bc46d">0e63a43d.. == 0e63a43d..</tspan>  byte-identical</text>
+  </g>
+</svg>
